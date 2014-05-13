@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   #s.osx.deployment_target = '10.8'
 
   s.public_header_files = 'FSI/*.h'
-  s.source_files = 'FSI/FSI.h'
+  s.source_files = 'FSI/*.{h,m}'
 end
