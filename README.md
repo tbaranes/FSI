@@ -6,4 +6,46 @@ FSI is a delightful iOS library.
 This library offer to you several usefull methods. Each methods has a simple goal: reduce the quantity of code to get one goal.
 Each one doesn't have link with the others, they are all independant.
 
-Feels free to use it.
+Requirements
+------
+
+FSI library V0.1.0 requires Xcode 5, targeting iOS 7.0 and above.
+
+Installation 
+------
+
+### With CocoaPods ###
+
+[CocoaPods](http://cocoapods.org/) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries in your projects. See their "Getting Started" guide for more information.
+
+So, to use it, Just add this line in your Podfile
+```
+pod "FSI", "~ 0.1.0"
+```
+
+### Manual installation ###
+
+Also, you can use this library such as a static library.  
+To link this static library with your project, please, follow [Apple's Documentation](https://developer.apple.com/LIBRARY/IOS/technotes/iOSStaticLibraries/Articles/configuration.html#//apple_ref/doc/uid/TP40012554-CH3-SW1) about that.
+
+Usage
+------
+
+Coming soon
+
+Feedback
+------
+
+  * If you found a **bug**, open an **issue**
+  * If you have a **feature request**, open an **issue**
+  * If you want to **contribute**, submit a **pull request**
+
+Contact
+------
+
+* [@tbaranes](https://github.com/tbaranes/) on github
+
+Licence
+------
+
+FSI is under the Apache license. See the LICENSE file for more information.
