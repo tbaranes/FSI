@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2FC1FD81921C4A400D38AEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FC1FD71921C4A400D38AEA /* Foundation.framework */; };
+		E2FC201E1921C4BB00D38AEA /* FSIDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC1FFF1921C4BB00D38AEA /* FSIDeviceHelper.m */; };
+		E2FC201F1921C4BB00D38AEA /* FSILogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20011921C4BB00D38AEA /* FSILogger.m */; };
+		E2FC20201921C4BB00D38AEA /* FSIReachibility.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20031921C4BB00D38AEA /* FSIReachibility.m */; };
+		E2FC20211921C4BB00D38AEA /* NSArray+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20051921C4BB00D38AEA /* NSArray+FSIExtensions.m */; };
+		E2FC20221921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20071921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.m */; };
+		E2FC20231921C4BB00D38AEA /* NSNumberFormatter+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20091921C4BB00D38AEA /* NSNumberFormatter+FSIExtensions.m */; };
+		E2FC20241921C4BB00D38AEA /* NSObject+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC200B1921C4BB00D38AEA /* NSObject+FSIExtensions.m */; };
+		E2FC20251921C4BB00D38AEA /* NSString+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC200D1921C4BB00D38AEA /* NSString+FSIExtensions.m */; };
+		E2FC20261921C4BB00D38AEA /* UIAlertView+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC200F1921C4BB00D38AEA /* UIAlertView+FSIExtensions.m */; };
+		E2FC20271921C4BB00D38AEA /* UIButton+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20111921C4BB00D38AEA /* UIButton+FSIExtensions.m */; };
+		E2FC20281921C4BB00D38AEA /* UIColor+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20131921C4BB00D38AEA /* UIColor+FSIExtensions.m */; };
+		E2FC20291921C4BB00D38AEA /* UIImage+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20151921C4BB00D38AEA /* UIImage+FSIExtensions.m */; };
+		E2FC202A1921C4BB00D38AEA /* UIScrollView+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20171921C4BB00D38AEA /* UIScrollView+FSIExtensions.m */; };
+		E2FC202B1921C4BB00D38AEA /* UITextField+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20191921C4BB00D38AEA /* UITextField+FSIExtensions.m */; };
+		E2FC202C1921C4BB00D38AEA /* UIView+Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC201B1921C4BB00D38AEA /* UIView+Borders.m */; };
+		E2FC202D1921C4BB00D38AEA /* UIView+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC201D1921C4BB00D38AEA /* UIView+FSIExtensions.m */; };
+		E2FC202F1921C60200D38AEA /* FSIDeviceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC1FFE1921C4BB00D38AEA /* FSIDeviceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC20301921C60200D38AEA /* FSILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20001921C4BB00D38AEA /* FSILogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC20311921C60200D38AEA /* FSIReachibility.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20021921C4BB00D38AEA /* FSIReachibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC20321921C60200D38AEA /* NSArray+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20041921C4BB00D38AEA /* NSArray+FSIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC20331921C60200D38AEA /* NSDateFormatter+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20061921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC20341921C60200D38AEA /* NSNumberFormatter+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20081921C4BB00D38AEA /* NSNumberFormatter+FSIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC20351921C60200D38AEA /* NSObject+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC200A1921C4BB00D38AEA /* NSObject+FSIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC20361921C60200D38AEA /* NSString+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC200C1921C4BB00D38AEA /* NSString+FSIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC20371921C60200D38AEA /* UIAlertView+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC200E1921C4BB00D38AEA /* UIAlertView+FSIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC20381921C60200D38AEA /* UIButton+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20101921C4BB00D38AEA /* UIButton+FSIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC20391921C60300D38AEA /* UIColor+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20121921C4BB00D38AEA /* UIColor+FSIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC203A1921C60300D38AEA /* UIImage+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20141921C4BB00D38AEA /* UIImage+FSIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC203B1921C60300D38AEA /* UIScrollView+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20161921C4BB00D38AEA /* UIScrollView+FSIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC203C1921C60300D38AEA /* UITextField+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20181921C4BB00D38AEA /* UITextField+FSIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC203D1921C60300D38AEA /* UIView+Borders.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC201A1921C4BB00D38AEA /* UIView+Borders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FC203E1921C60300D38AEA /* UIView+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC201C1921C4BB00D38AEA /* UIView+FSIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2FC1FD21921C4A400D38AEA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E2FC1FD41921C4A400D38AEA /* libFSI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFSI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FC1FD71921C4A400D38AEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2FC1FDB1921C4A400D38AEA /* FSI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSI-Prefix.pch"; sourceTree = "<group>"; };
+		E2FC1FE51921C4A400D38AEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E2FC1FE81921C4A400D38AEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E2FC1FFE1921C4BB00D38AEA /* FSIDeviceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSIDeviceHelper.h; sourceTree = "<group>"; };
+		E2FC1FFF1921C4BB00D38AEA /* FSIDeviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSIDeviceHelper.m; sourceTree = "<group>"; };
+		E2FC20001921C4BB00D38AEA /* FSILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSILogger.h; sourceTree = "<group>"; };
+		E2FC20011921C4BB00D38AEA /* FSILogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSILogger.m; sourceTree = "<group>"; };
+		E2FC20021921C4BB00D38AEA /* FSIReachibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSIReachibility.h; sourceTree = "<group>"; };
+		E2FC20031921C4BB00D38AEA /* FSIReachibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSIReachibility.m; sourceTree = "<group>"; };
+		E2FC20041921C4BB00D38AEA /* NSArray+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FSIExtensions.h"; sourceTree = "<group>"; };
+		E2FC20051921C4BB00D38AEA /* NSArray+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FSIExtensions.m"; sourceTree = "<group>"; };
+		E2FC20061921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+FSIExtensions.h"; sourceTree = "<group>"; };
+		E2FC20071921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+FSIExtensions.m"; sourceTree = "<group>"; };
+		E2FC20081921C4BB00D38AEA /* NSNumberFormatter+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumberFormatter+FSIExtensions.h"; sourceTree = "<group>"; };
+		E2FC20091921C4BB00D38AEA /* NSNumberFormatter+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumberFormatter+FSIExtensions.m"; sourceTree = "<group>"; };
+		E2FC200A1921C4BB00D38AEA /* NSObject+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FSIExtensions.h"; sourceTree = "<group>"; };
+		E2FC200B1921C4BB00D38AEA /* NSObject+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FSIExtensions.m"; sourceTree = "<group>"; };
+		E2FC200C1921C4BB00D38AEA /* NSString+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FSIExtensions.h"; sourceTree = "<group>"; };
+		E2FC200D1921C4BB00D38AEA /* NSString+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FSIExtensions.m"; sourceTree = "<group>"; };
+		E2FC200E1921C4BB00D38AEA /* UIAlertView+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+FSIExtensions.h"; sourceTree = "<group>"; };
+		E2FC200F1921C4BB00D38AEA /* UIAlertView+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+FSIExtensions.m"; sourceTree = "<group>"; };
+		E2FC20101921C4BB00D38AEA /* UIButton+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FSIExtensions.h"; sourceTree = "<group>"; };
+		E2FC20111921C4BB00D38AEA /* UIButton+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FSIExtensions.m"; sourceTree = "<group>"; };
+		E2FC20121921C4BB00D38AEA /* UIColor+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FSIExtensions.h"; sourceTree = "<group>"; };
+		E2FC20131921C4BB00D38AEA /* UIColor+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FSIExtensions.m"; sourceTree = "<group>"; };
+		E2FC20141921C4BB00D38AEA /* UIImage+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FSIExtensions.h"; sourceTree = "<group>"; };
+		E2FC20151921C4BB00D38AEA /* UIImage+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FSIExtensions.m"; sourceTree = "<group>"; };
+		E2FC20161921C4BB00D38AEA /* UIScrollView+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FSIExtensions.h"; sourceTree = "<group>"; };
+		E2FC20171921C4BB00D38AEA /* UIScrollView+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FSIExtensions.m"; sourceTree = "<group>"; };
+		E2FC20181921C4BB00D38AEA /* UITextField+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+FSIExtensions.h"; sourceTree = "<group>"; };
+		E2FC20191921C4BB00D38AEA /* UITextField+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FSIExtensions.m"; sourceTree = "<group>"; };
+		E2FC201A1921C4BB00D38AEA /* UIView+Borders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Borders.h"; sourceTree = "<group>"; };
+		E2FC201B1921C4BB00D38AEA /* UIView+Borders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Borders.m"; sourceTree = "<group>"; };
+		E2FC201C1921C4BB00D38AEA /* UIView+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FSIExtensions.h"; sourceTree = "<group>"; };
+		E2FC201D1921C4BB00D38AEA /* UIView+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FSIExtensions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2FC1FD11921C4A400D38AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FC1FD81921C4A400D38AEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2FC1FCB1921C4A400D38AEA = {
+			isa = PBXGroup;
+			children = (
+				E2FC1FD91921C4A400D38AEA /* FSI */,
+				E2FC1FD61921C4A400D38AEA /* Frameworks */,
+				E2FC1FD51921C4A400D38AEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2FC1FD51921C4A400D38AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2FC1FD41921C4A400D38AEA /* libFSI.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2FC1FD61921C4A400D38AEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2FC1FD71921C4A400D38AEA /* Foundation.framework */,
+				E2FC1FE51921C4A400D38AEA /* XCTest.framework */,
+				E2FC1FE81921C4A400D38AEA /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2FC1FD91921C4A400D38AEA /* FSI */ = {
+			isa = PBXGroup;
+			children = (
+				E2FC1FFD1921C4B200D38AEA /* Classes */,
+				E2FC1FDA1921C4A400D38AEA /* Supporting Files */,
+			);
+			path = FSI;
+			sourceTree = "<group>";
+		};
+		E2FC1FDA1921C4A400D38AEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2FC1FDB1921C4A400D38AEA /* FSI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2FC1FFD1921C4B200D38AEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E2FC1FFE1921C4BB00D38AEA /* FSIDeviceHelper.h */,
+				E2FC1FFF1921C4BB00D38AEA /* FSIDeviceHelper.m */,
+				E2FC20001921C4BB00D38AEA /* FSILogger.h */,
+				E2FC20011921C4BB00D38AEA /* FSILogger.m */,
+				E2FC20021921C4BB00D38AEA /* FSIReachibility.h */,
+				E2FC20031921C4BB00D38AEA /* FSIReachibility.m */,
+				E2FC20041921C4BB00D38AEA /* NSArray+FSIExtensions.h */,
+				E2FC20051921C4BB00D38AEA /* NSArray+FSIExtensions.m */,
+				E2FC20061921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.h */,
+				E2FC20071921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.m */,
+				E2FC20081921C4BB00D38AEA /* NSNumberFormatter+FSIExtensions.h */,
+				E2FC20091921C4BB00D38AEA /* NSNumberFormatter+FSIExtensions.m */,
+				E2FC200A1921C4BB00D38AEA /* NSObject+FSIExtensions.h */,
+				E2FC200B1921C4BB00D38AEA /* NSObject+FSIExtensions.m */,
+				E2FC200C1921C4BB00D38AEA /* NSString+FSIExtensions.h */,
+				E2FC200D1921C4BB00D38AEA /* NSString+FSIExtensions.m */,
+				E2FC200E1921C4BB00D38AEA /* UIAlertView+FSIExtensions.h */,
+				E2FC200F1921C4BB00D38AEA /* UIAlertView+FSIExtensions.m */,
+				E2FC20101921C4BB00D38AEA /* UIButton+FSIExtensions.h */,
+				E2FC20111921C4BB00D38AEA /* UIButton+FSIExtensions.m */,
+				E2FC20121921C4BB00D38AEA /* UIColor+FSIExtensions.h */,
+				E2FC20131921C4BB00D38AEA /* UIColor+FSIExtensions.m */,
+				E2FC20141921C4BB00D38AEA /* UIImage+FSIExtensions.h */,
+				E2FC20151921C4BB00D38AEA /* UIImage+FSIExtensions.m */,
+				E2FC20161921C4BB00D38AEA /* UIScrollView+FSIExtensions.h */,
+				E2FC20171921C4BB00D38AEA /* UIScrollView+FSIExtensions.m */,
+				E2FC20181921C4BB00D38AEA /* UITextField+FSIExtensions.h */,
+				E2FC20191921C4BB00D38AEA /* UITextField+FSIExtensions.m */,
+				E2FC201A1921C4BB00D38AEA /* UIView+Borders.h */,
+				E2FC201B1921C4BB00D38AEA /* UIView+Borders.m */,
+				E2FC201C1921C4BB00D38AEA /* UIView+FSIExtensions.h */,
+				E2FC201D1921C4BB00D38AEA /* UIView+FSIExtensions.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E2FC202E1921C5DE00D38AEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FC202F1921C60200D38AEA /* FSIDeviceHelper.h in Headers */,
+				E2FC20301921C60200D38AEA /* FSILogger.h in Headers */,
+				E2FC20311921C60200D38AEA /* FSIReachibility.h in Headers */,
+				E2FC20321921C60200D38AEA /* NSArray+FSIExtensions.h in Headers */,
+				E2FC20331921C60200D38AEA /* NSDateFormatter+FSIExtensions.h in Headers */,
+				E2FC20341921C60200D38AEA /* NSNumberFormatter+FSIExtensions.h in Headers */,
+				E2FC20351921C60200D38AEA /* NSObject+FSIExtensions.h in Headers */,
+				E2FC20361921C60200D38AEA /* NSString+FSIExtensions.h in Headers */,
+				E2FC20371921C60200D38AEA /* UIAlertView+FSIExtensions.h in Headers */,
+				E2FC20381921C60200D38AEA /* UIButton+FSIExtensions.h in Headers */,
+				E2FC20391921C60300D38AEA /* UIColor+FSIExtensions.h in Headers */,
+				E2FC203A1921C60300D38AEA /* UIImage+FSIExtensions.h in Headers */,
+				E2FC203B1921C60300D38AEA /* UIScrollView+FSIExtensions.h in Headers */,
+				E2FC203C1921C60300D38AEA /* UITextField+FSIExtensions.h in Headers */,
+				E2FC203D1921C60300D38AEA /* UIView+Borders.h in Headers */,
+				E2FC203E1921C60300D38AEA /* UIView+FSIExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E2FC1FD31921C4A400D38AEA /* FSI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FC1FF71921C4A400D38AEA /* Build configuration list for PBXNativeTarget "FSI" */;
+			buildPhases = (
+				E2FC1FD01921C4A400D38AEA /* Sources */,
+				E2FC1FD11921C4A400D38AEA /* Frameworks */,
+				E2FC1FD21921C4A400D38AEA /* CopyFiles */,
+				E2FC202E1921C5DE00D38AEA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSI;
+			productName = FSI;
+			productReference = E2FC1FD41921C4A400D38AEA /* libFSI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2FC1FCC1921C4A400D38AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tom Baranes";
+			};
+			buildConfigurationList = E2FC1FCF1921C4A400D38AEA /* Build configuration list for PBXProject "FSI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2FC1FCB1921C4A400D38AEA;
+			productRefGroup = E2FC1FD51921C4A400D38AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2FC1FD31921C4A400D38AEA /* FSI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2FC1FD01921C4A400D38AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FC20251921C4BB00D38AEA /* NSString+FSIExtensions.m in Sources */,
+				E2FC20221921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.m in Sources */,
+				E2FC201F1921C4BB00D38AEA /* FSILogger.m in Sources */,
+				E2FC201E1921C4BB00D38AEA /* FSIDeviceHelper.m in Sources */,
+				E2FC20271921C4BB00D38AEA /* UIButton+FSIExtensions.m in Sources */,
+				E2FC202A1921C4BB00D38AEA /* UIScrollView+FSIExtensions.m in Sources */,
+				E2FC20281921C4BB00D38AEA /* UIColor+FSIExtensions.m in Sources */,
+				E2FC202D1921C4BB00D38AEA /* UIView+FSIExtensions.m in Sources */,
+				E2FC20201921C4BB00D38AEA /* FSIReachibility.m in Sources */,
+				E2FC202B1921C4BB00D38AEA /* UITextField+FSIExtensions.m in Sources */,
+				E2FC20211921C4BB00D38AEA /* NSArray+FSIExtensions.m in Sources */,
+				E2FC20291921C4BB00D38AEA /* UIImage+FSIExtensions.m in Sources */,
+				E2FC20261921C4BB00D38AEA /* UIAlertView+FSIExtensions.m in Sources */,
+				E2FC20241921C4BB00D38AEA /* NSObject+FSIExtensions.m in Sources */,
+				E2FC20231921C4BB00D38AEA /* NSNumberFormatter+FSIExtensions.m in Sources */,
+				E2FC202C1921C4BB00D38AEA /* UIView+Borders.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2FC1FF51921C4A400D38AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2FC1FF61921C4A400D38AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2FC1FF81921C4A400D38AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FSI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSI/FSI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E2FC1FF91921C4A400D38AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FSI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSI/FSI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2FC1FCF1921C4A400D38AEA /* Build configuration list for PBXProject "FSI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FC1FF51921C4A400D38AEA /* Debug */,
+				E2FC1FF61921C4A400D38AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2FC1FF71921C4A400D38AEA /* Build configuration list for PBXNativeTarget "FSI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FC1FF81921C4A400D38AEA /* Debug */,
+				E2FC1FF91921C4A400D38AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2FC1FCC1921C4A400D38AEA /* Project object */;
+}
