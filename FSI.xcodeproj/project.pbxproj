@@ -55,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E2940CA819220350007B27C9 /* FSI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSI.h; sourceTree = "<group>"; };
 		E2FC1FD41921C4A400D38AEA /* libFSI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFSI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FC1FD71921C4A400D38AEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2FC1FDB1921C4A400D38AEA /* FSI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSI-Prefix.pch"; sourceTree = "<group>"; };
@@ -138,6 +139,7 @@
 			children = (
 				E2FC1FFD1921C4B200D38AEA /* Classes */,
 				E2FC1FDA1921C4A400D38AEA /* Supporting Files */,
+				E2940CA819220350007B27C9 /* FSI.h */,
 			);
 			path = FSI;
 			sourceTree = "<group>";
