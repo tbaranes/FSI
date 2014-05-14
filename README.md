@@ -30,7 +30,12 @@ To link this static library with your project, please, follow [Apple's Documenta
 Usage
 ------
 
-Coming soon
+To use this library, just add this line in your code to access at the library:
+```
+#import "FSI.h"
+```
+
+For more information, see the [FSI's wiki](wikihttps://github.com/tbaranes/FSI/wiki) 
 
 Feedback
 ------
