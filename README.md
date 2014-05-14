@@ -8,7 +8,7 @@ The goal of this library is to provide several usefull methods that can be used 
 Requirements
 ------
 
-FSI library V0.1.0 requires Xcode 5, targeting iOS 7.0 and above.
+FSI library V0.1.0 requires Xcode 5, targeting iOS 6.0 and above.
 
 Installation 
 ------
