@@ -8,7 +8,7 @@ The goal of this library is to provide several usefull methods that can be used 
 Requirements
 ------
 
-FSI library V0.1.0 requires Xcode 5, targeting iOS 7.0 and above.
+FSI library V0.1.0 requires Xcode 5, targeting iOS 6.0 and above.
 
 Installation 
 ------
@@ -30,7 +30,12 @@ To link this static library with your project, please, follow [Apple's Documenta
 Usage
 ------
 
-Coming soon
+To use this library, just add this line in your code to access at the library:
+```
+#import "FSI.h"
+```
+
+For more information, see the [FSI's wiki](wikihttps://github.com/tbaranes/FSI/wiki) 
 
 Feedback
 ------
