@@ -19,7 +19,7 @@ Installation
 
 So, to use it, Just add this line in your Podfile
 ```
-pod "FSI", "~ 0.1.0"
+pod "FSI", "~ 0.1.1"
 ```
 
 ### Manual installation ###
