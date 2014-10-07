@@ -37,5 +37,6 @@
 #import "NSDateFormatter+FSIExtensions.h"
 #import "UIScrollView+FSIExtensions.h"
 #import "NSArray+FSIExtensions.h"
+#import "UILabel+FSIExtensions.h"
 
 #endif
