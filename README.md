@@ -3,7 +3,7 @@ FSI
 
 FSI is a delightful iOS library.
 
-The goal of this library is to provide several usefull methods that can be used anywhere quickly and easily in order to reduce the code use for a same task. 
+The goal of this library is to provide several useful methods that can be used anywhere quickly and easily in order to reduce the code use for a same task. 
 
 Requirements
 ------
@@ -17,7 +17,7 @@ Installation
 
 [CocoaPods](http://cocoapods.org/) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries in your projects. See their "Getting Started" guide for more information.
 
-So, to use it, Just add this line in your Podfile
+So, to use it, just add this line in your Podfile
 ```
 pod "FSI", "~ 0.1.1"
 ```
@@ -49,7 +49,7 @@ Contact
 
 * [@tbaranes](https://github.com/tbaranes/) on github
 
-Licence
+License
 ------
 
 FSI is under the Apache license. See the LICENSE file for more information.
