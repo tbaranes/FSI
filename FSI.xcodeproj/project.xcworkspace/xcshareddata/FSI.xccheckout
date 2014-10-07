@@ -10,29 +10,29 @@
 	<string>FSI</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>7854E80A-2E1C-4561-B117-E0F0DB93B1FA</key>
+		<key>1638F8953AA28E546F6608B44171DA0B9DDB51C3</key>
 		<string>https://github.com/tbaranes/FSI.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>FSI.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>7854E80A-2E1C-4561-B117-E0F0DB93B1FA</key>
+		<key>1638F8953AA28E546F6608B44171DA0B9DDB51C3</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/tbaranes/FSI.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7854E80A-2E1C-4561-B117-E0F0DB93B1FA</string>
+	<string>1638F8953AA28E546F6608B44171DA0B9DDB51C3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7854E80A-2E1C-4561-B117-E0F0DB93B1FA</string>
+			<string>1638F8953AA28E546F6608B44171DA0B9DDB51C3</string>
 			<key>IDESourceControlWCCName</key>
 			<string>FSI</string>
 		</dict>

@@ -31,4 +31,10 @@
  */
 - (BOOL)isEmailValid;
 
+/** Create an NSString composed of a price and his locale symbol
+ @param price price to put in the string
+ @returns the string created
+ */
++ (NSString *)stringWithLocaleCurrencyAndPrice:(CGFloat)price;
+
 @end
