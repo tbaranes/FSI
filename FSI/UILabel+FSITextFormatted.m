@@ -16,8 +16,7 @@
     NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithAttributedString: self.attributedText];
     [text addAttribute: NSForegroundColorAttributeName
                  value: textColor
-                 range: range];
-    
+                 range: range];    
     [self setAttributedText: text];
 }
 
@@ -64,6 +63,16 @@
         range.length = self.text.length - range.location;
         [self setTextStrikeInRange:range];
     }
+}
+
+#pragma mark - Underline
+
+- (void)underlineEntireLabel {
+    NSMutableAttributedString *attributeString = [[NSMutableAttributedString alloc] initWithAttributedString:self.attributedText];
+    [attributeString addAttribute:NSUnderlineStyleAttributeName
+                            value:[NSNumber numberWithInt:1]
+                            range:(NSRange){0,[attributeString length]}];
+    [self setAttributedText:attributeString];
 }
 
 @end

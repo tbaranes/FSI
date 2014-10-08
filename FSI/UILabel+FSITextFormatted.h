@@ -42,5 +42,10 @@
  */
 - (void)setTextStrikeAfterOccurenceOfString:(NSString *)separator;
 
+#pragma mark - Underline
+
+/** Underline the entire text of the label
+ */
+- (void)underlineEntireLabel;
 
 @end
