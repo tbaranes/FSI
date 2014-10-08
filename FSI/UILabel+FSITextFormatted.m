@@ -67,11 +67,11 @@
 
 #pragma mark - Underline
 
-- (void)underlineEntireLabel {
+- (void)setTextUnderlineInRange:(NSRange)range {
     NSMutableAttributedString *attributeString = [[NSMutableAttributedString alloc] initWithAttributedString:self.attributedText];
     [attributeString addAttribute:NSUnderlineStyleAttributeName
                             value:[NSNumber numberWithInt:1]
-                            range:(NSRange){0,[attributeString length]}];
+                            range:range];
     [self setAttributedText:attributeString];
 }
 

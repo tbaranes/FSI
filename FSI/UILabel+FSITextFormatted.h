@@ -45,7 +45,8 @@
 #pragma mark - Underline
 
 /** Underline the entire text of the label
+  @param range position of the text to strike
  */
-- (void)underlineEntireLabel;
+- (void)setTextUnderlineInRange:(NSRange)range;
 
 @end
