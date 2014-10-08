@@ -10,37 +10,9 @@
 
 @interface UILabel (FSIExtensions)
 
-#pragma mark - Custom color
-
-/** Set a part of uilabel's text in a custom color
- @param textColor custom color
- @param range position of the text to colorize
+/** Check if a label is truncated or not
+ @return bool if or not it's truncated
  */
-- (void)setTextColor:(UIColor *)textColor range:(NSRange)range;
-
-/** Set a part of uilabel's text in a custom color
- @param textColor custom color
- @param separator colorize all the text after this occurence
- */
-- (void)setTextColor:(UIColor *)textColor afterOccurenceOfString:(NSString *)separator;
-
-/** Set a part of uilabel's text in a custom color
- @param textColor custom color
- @param textToColorize colorize this part of text only
- */
-- (void)setTextColor:(UIColor *)color textToColorize:(NSString *)textToColorize;
-
-#pragma mark - Strike
-
-/** Set a part of uilabel's text in a custom color
- @param range position of the text to strike
- */
-- (void)setTextStrikeInRange:(NSRange)range;
-
-/** Set a part of uilabel's text in a custom color
- @param separator strike all the text after this occurence
- */
-- (void)setTextStrikeAfterOccurenceOfString:(NSString *)separator;
-
+- (BOOL)isTruncated;
 
 @end

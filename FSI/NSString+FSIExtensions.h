@@ -31,10 +31,20 @@
  */
 - (BOOL)isEmailValid;
 
+#pragma mark - Locale
+
 /** Create an NSString composed of a price and his locale symbol
  @param price price to put in the string
  @returns the string created
  */
 + (NSString *)stringWithLocaleCurrencyAndPrice:(CGFloat)price;
+
+#pragma mark - HTML
+
+/** Create an NSString without HTML tags
+ @param text text to strip
+ @returns the string created
+*/
+							+ (NSString *)stringByStrippingHTMLInText:(NSString *)text;
 
 @end

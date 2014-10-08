@@ -24,6 +24,11 @@
  */
 + (id)viewFromNib;
 
+/** Calculate the view's height following the subviews
+ @returns the height
+ */
+- (CGFloat)totalSubviewsHeightWithBottomMargin:(CGFloat)bottomMargin;
+
 /** Convert every UI components text by the localizable matching
 	The UI components text must be the key matching in the localizable files
  */

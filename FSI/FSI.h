@@ -38,5 +38,6 @@
 #import "UIScrollView+FSIExtensions.h"
 #import "NSArray+FSIExtensions.h"
 #import "UILabel+FSIExtensions.h"
+#import "UILabel+FSITextFormatted.h"
 
 #endif

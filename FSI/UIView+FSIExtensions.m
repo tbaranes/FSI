@@ -22,9 +22,21 @@
 
 @implementation UIView (FSIExtensions)
 
+#pragma mark - Helper
+
 + (id)viewFromNib
 {
 	return [self createObjectOfClass:[self class] fromNibNamed:NSStringFromClass([self class])];
+}
+
+- (CGFloat)totalSubviewsHeightWithBottomMargin:(CGFloat)bottomMargin {
+    NSInteger height = 0;
+    for (UIView *view in self.subviews){
+        if (height < view.frame.origin.y + view.frame.size.height) {
+            height = view.frame.origin.y + view.frame.size.height;
+        }
+    }
+    return height + bottomMargin;
 }
 
 #pragma mark - Localizable

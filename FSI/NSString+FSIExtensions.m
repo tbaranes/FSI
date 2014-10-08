@@ -50,4 +50,14 @@
 	return [currencyFormatter stringFromNumber:someAmount];
 }
 
+#pragma mark - HTML
+
++ (NSString *)stringByStrippingHTMLInText:(NSString *)text {
+    NSRange r;
+    while ((r = [text rangeOfString:@"<[^>]+>" options:NSRegularExpressionSearch]).location != NSNotFound) {
+        text = [text stringByReplacingCharactersInRange:r withString:@""];
+    }
+    return text;
+}
+
 @end
