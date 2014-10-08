@@ -16,6 +16,7 @@
 // limitations under the License.
 
 #import "NSString+FSIExtensions.h"
+#import "NSNumberFormatter+FSIExtensions.h"
 
 @implementation NSString (FSIExtensions)
 
