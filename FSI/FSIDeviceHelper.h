@@ -32,4 +32,9 @@
  */
 + (NSString *)getDeviceVersion;
 
+/** Look for what kind of model is used
+	@returns a string representing the device name. If the device isn't identified, it will return the original string
+ */
++ (NSString *)getDeviceType;
+
 @end

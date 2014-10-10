@@ -12,8 +12,6 @@
 	<dict>
 		<key>1638F8953AA28E546F6608B44171DA0B9DDB51C3</key>
 		<string>https://github.com/tbaranes/FSI.git</string>
-		<key>def4a2f1-e966-4e0a-8ac7-776d730131bb++4974</key>
-		<string>https://coconet-svn-fr-01.capgemini.com/svn/repos/fnac_mobile/iOS</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>FSI.xcodeproj/project.xcworkspace</string>
@@ -21,13 +19,6 @@
 	<dict>
 		<key>1638F8953AA28E546F6608B44171DA0B9DDB51C3</key>
 		<string>../..</string>
-		<key>def4a2f1-e966-4e0a-8ac7-776d730131bb++4974</key>
-		<string>../../..</string>
-	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>def4a2f1-e966-4e0a-8ac7-776d730131bb++4974</key>
-		<string>https://coconet-svn-fr-01.capgemini.com/svn/repos/fnac_mobile</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/tbaranes/FSI.git</string>
@@ -37,14 +28,6 @@
 	<string>1638F8953AA28E546F6608B44171DA0B9DDB51C3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>def4a2f1-e966-4e0a-8ac7-776d730131bb++4974</string>
-			<key>IDESourceControlWCCName</key>
-			<string></string>
-		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
