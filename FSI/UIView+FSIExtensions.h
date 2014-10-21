@@ -24,6 +24,14 @@
  */
 + (id)viewFromNib;
 
+/** Add a shadow following attributes passed
+ */
+- (void)shadowWithColor:(UIColor *)color offset:(CGSize)offset radius:(CGFloat)radius andOpacity:(CGFloat)oppacity;
+
+/** Set border in UIView layer, not drawing
+ */
+- (void)bordersWithWidth:(CGFloat)width andColor:(UIColor *)color;
+
 /** Calculate the view's height following the subviews
  @returns the height
  */

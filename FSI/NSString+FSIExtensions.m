@@ -20,6 +20,8 @@
 
 @implementation NSString (FSIExtensions)
 
+#pragma mark - 
+
 - (BOOL)isEmpty {
 	if (self && [self length] > 0 && ![self isEqualToString:@""]) {
 		return NO;
@@ -35,6 +37,29 @@
 	NSString *emailRegex = stricterFilter ? stricterFilterString : laxString;
 	NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
 	return [emailTest evaluateWithObject:self];
+}
+
+#pragma mark - Substrings
+
+- (BOOL)containsSubstring:(NSString *)aString {
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
+        return [self containsString:aString];
+    }
+    return [self rangeOfString:aString].location != NSNotFound;
+}
+
+- (NSRange)rangeInStringForText:(NSString *)textToFind {
+    NSUInteger count = 0, length = [self length];
+    NSRange range = NSMakeRange(0, length);
+    while (range.location != NSNotFound) {
+        range = [self rangeOfString:textToFind options:0 range:range];
+        if (range.location != NSNotFound) {
+            range = NSMakeRange(range.location + range.length, length - (range.location + range.length));
+            count++;
+            break;
+        }
+    }
+    return range;
 }
 
 #pragma mark - Currency
@@ -60,5 +85,6 @@
     }
     return text;
 }
+
 
 @end

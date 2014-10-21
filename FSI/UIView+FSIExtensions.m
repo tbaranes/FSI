@@ -39,6 +39,20 @@
     return height + bottomMargin;
 }
 
+- (void)shadowWithColor:(UIColor *)color offset:(CGSize)offset radius:(CGFloat)radius andOpacity:(CGFloat)oppacity {
+    [self.layer setShadowOffset:offset];
+    [self.layer setShadowRadius:radius];
+    [self.layer setShadowOpacity:oppacity];
+    [self.layer setShadowColor:color.CGColor];
+}
+
+#pragma mark - Borders
+
+- (void)bordersWithWidth:(CGFloat)width andColor:(UIColor *)color {
+    [self.layer setBorderWidth:width];
+    [self.layer setBorderColor:color.CGColor];
+}
+
 #pragma mark - Localizable
 
 // Replace text in subviews with localized target

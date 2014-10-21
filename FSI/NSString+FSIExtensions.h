@@ -31,6 +31,18 @@
  */
 - (BOOL)isEmailValid;
 
+#pragma mark - Substrings
+
+/** Check if a string contains a specific substring (use right method following iOS version)
+ @returns BOOL following if the substring is found or not
+ */
+- (BOOL)containsSubstring:(NSString *)aString;
+
+/** Search and find range of a substring in the string
+ @returns NSRange range of the string to find
+ */
+- (NSRange)rangeInStringForText:(NSString *)textToFind;
+
 #pragma mark - Locale
 
 /** Create an NSString composed of a price and his locale symbol
@@ -45,6 +57,6 @@
  @param text text to strip
  @returns the string created
 */
-							+ (NSString *)stringByStrippingHTMLInText:(NSString *)text;
++ (NSString *)stringByStrippingHTMLInText:(NSString *)text;
 
 @end
