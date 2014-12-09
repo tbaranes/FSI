@@ -21,12 +21,20 @@
  */
 @interface UIButton (FSIExtensions)
 
-/** A way to create an UIButton well settled in order to reduce the goal to do it
+/** Easy way to create an UIButton well settled in order to reduce the code to do it
  @param imageView UIButton's image
  @param target target of the UIButton
  @param action selector of the UIButton
  @returns a UIButton well settled
  */
 + (UIButton *)buttonWithImageView:(UIImageView *)imageView target:(id)target selector:(SEL)action;
+
+/** Easy way to create an UIButton well settled in order to reduce the code to do it
+ @param title UIButton's title
+ @param target target of the UIButton
+ @param action selector of the UIButton
+ @returns a UIButton well settled
+ */
++ (UIButton *)buttonWithTitle:(NSString *)title target:(id)target action:(SEL)action;
 
 @end

@@ -21,6 +21,17 @@
  */
 @interface UIImage (FSIExtensions)
 
+/** Take a screnshot the screen
+	@returns an UIImage corresponding of the screenshot
+ */
++ (UIImage *)screenshot
+
+/** Take a screnshot of a specific UIView
+	@param viewToCapture the view which will be used for the screenshot
+	@returns an UIImage of the screenshot
+ */
++ (UIImage *)screenshotOfView:(UIView *)viewToCapture;
+
 /** A way to create an UIImage fill by a color
  @param color the color which will fill the image
  @returns an image well settled following the color choose

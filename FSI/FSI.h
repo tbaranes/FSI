@@ -40,5 +40,7 @@
 #import "UILabel+FSIExtensions.h"
 #import "UILabel+FSITextFormatted.h"
 #import "NSString+Levenshtein.h"
+#import "UIScreen+FSIExtention.h"
+#import "UIDevice+FSIExtension.h"
 
 #endif

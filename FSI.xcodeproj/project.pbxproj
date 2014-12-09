@@ -11,6 +11,10 @@
 		30ADF20A19E5139F0077F76A /* UILabel+FSITextFormatted.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ADF20819E5139F0077F76A /* UILabel+FSITextFormatted.m */; };
 		E20381DA19E931A9005F536D /* NSString+Levenshtein.h in Headers */ = {isa = PBXBuildFile; fileRef = E20381D819E931A9005F536D /* NSString+Levenshtein.h */; };
 		E20381DB19E931A9005F536D /* NSString+Levenshtein.m in Sources */ = {isa = PBXBuildFile; fileRef = E20381D919E931A9005F536D /* NSString+Levenshtein.m */; };
+		E2C1D7561A3786C200FE8EDB /* UIScreen+FSIExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C1D7541A3786C200FE8EDB /* UIScreen+FSIExtention.h */; };
+		E2C1D7571A3786C200FE8EDB /* UIScreen+FSIExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C1D7551A3786C200FE8EDB /* UIScreen+FSIExtention.m */; };
+		E2C1D75A1A37879400FE8EDB /* UIDevice+FSIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C1D7581A37879400FE8EDB /* UIDevice+FSIExtension.h */; };
+		E2C1D75B1A37879400FE8EDB /* UIDevice+FSIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C1D7591A37879400FE8EDB /* UIDevice+FSIExtension.m */; };
 		E2C87EDD19E459B100A23DB8 /* UILabel+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C87EDB19E459B100A23DB8 /* UILabel+FSIExtensions.h */; };
 		E2C87EDE19E459B100A23DB8 /* UILabel+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C87EDC19E459B100A23DB8 /* UILabel+FSIExtensions.m */; };
 		E2FC1FD81921C4A400D38AEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FC1FD71921C4A400D38AEA /* Foundation.framework */; };
@@ -66,6 +70,10 @@
 		E20381D819E931A9005F536D /* NSString+Levenshtein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Levenshtein.h"; sourceTree = "<group>"; };
 		E20381D919E931A9005F536D /* NSString+Levenshtein.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Levenshtein.m"; sourceTree = "<group>"; };
 		E2940CA819220350007B27C9 /* FSI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSI.h; sourceTree = "<group>"; };
+		E2C1D7541A3786C200FE8EDB /* UIScreen+FSIExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+FSIExtention.h"; sourceTree = "<group>"; };
+		E2C1D7551A3786C200FE8EDB /* UIScreen+FSIExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+FSIExtention.m"; sourceTree = "<group>"; };
+		E2C1D7581A37879400FE8EDB /* UIDevice+FSIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+FSIExtension.h"; sourceTree = "<group>"; };
+		E2C1D7591A37879400FE8EDB /* UIDevice+FSIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+FSIExtension.m"; sourceTree = "<group>"; };
 		E2C87EDB19E459B100A23DB8 /* UILabel+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FSIExtensions.h"; sourceTree = "<group>"; };
 		E2C87EDC19E459B100A23DB8 /* UILabel+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FSIExtensions.m"; sourceTree = "<group>"; };
 		E2FC1FD41921C4A400D38AEA /* libFSI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFSI.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,6 +213,10 @@
 				30ADF20819E5139F0077F76A /* UILabel+FSITextFormatted.m */,
 				E20381D819E931A9005F536D /* NSString+Levenshtein.h */,
 				E20381D919E931A9005F536D /* NSString+Levenshtein.m */,
+				E2C1D7541A3786C200FE8EDB /* UIScreen+FSIExtention.h */,
+				E2C1D7551A3786C200FE8EDB /* UIScreen+FSIExtention.m */,
+				E2C1D7581A37879400FE8EDB /* UIDevice+FSIExtension.h */,
+				E2C1D7591A37879400FE8EDB /* UIDevice+FSIExtension.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -228,10 +240,12 @@
 				E2FC20361921C60200D38AEA /* NSString+FSIExtensions.h in Headers */,
 				E2FC20371921C60200D38AEA /* UIAlertView+FSIExtensions.h in Headers */,
 				E2FC20381921C60200D38AEA /* UIButton+FSIExtensions.h in Headers */,
+				E2C1D7561A3786C200FE8EDB /* UIScreen+FSIExtention.h in Headers */,
 				E2FC20391921C60300D38AEA /* UIColor+FSIExtensions.h in Headers */,
 				E2FC203A1921C60300D38AEA /* UIImage+FSIExtensions.h in Headers */,
 				E20381DA19E931A9005F536D /* NSString+Levenshtein.h in Headers */,
 				E2FC203B1921C60300D38AEA /* UIScrollView+FSIExtensions.h in Headers */,
+				E2C1D75A1A37879400FE8EDB /* UIDevice+FSIExtension.h in Headers */,
 				E2FC203C1921C60300D38AEA /* UITextField+FSIExtensions.h in Headers */,
 				E2FC203D1921C60300D38AEA /* UIView+Borders.h in Headers */,
 				E2FC203E1921C60300D38AEA /* UIView+FSIExtensions.h in Headers */,
@@ -307,6 +321,8 @@
 				E2FC20291921C4BB00D38AEA /* UIImage+FSIExtensions.m in Sources */,
 				E2FC20261921C4BB00D38AEA /* UIAlertView+FSIExtensions.m in Sources */,
 				E2FC20241921C4BB00D38AEA /* NSObject+FSIExtensions.m in Sources */,
+				E2C1D7571A3786C200FE8EDB /* UIScreen+FSIExtention.m in Sources */,
+				E2C1D75B1A37879400FE8EDB /* UIDevice+FSIExtension.m in Sources */,
 				E2FC20231921C4BB00D38AEA /* NSNumberFormatter+FSIExtensions.m in Sources */,
 				E2FC202C1921C4BB00D38AEA /* UIView+Borders.m in Sources */,
 			);

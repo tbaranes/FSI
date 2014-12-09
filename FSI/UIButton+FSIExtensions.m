@@ -21,13 +21,22 @@
 
 + (UIButton *)buttonWithImageView:(UIImageView *)imageView target:(id)target selector:(SEL)action
 {
-	UIButton *aButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	UIButton *aButton = [UIButton buttonWithType:UIButtonTypeSystem];
 	[aButton setBackgroundImage:[imageView image] forState:UIControlStateNormal];
 	[aButton setBackgroundImage:[imageView highlightedImage] forState:UIControlStateHighlighted];
 	
 	[aButton setFrame:CGRectMake(0, 0, imageView.image.size.width, imageView.image.size.height)];
 	[aButton addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
 	return aButton;
+}
+
++ (UIButton *)buttonWithTitle:(NSString *)title target:(id)target action:(SEL)action {
+	UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+	[button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+	[button setTitle:title forState:UIControlStateNormal];
+	[button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+	[button sizeToFit];
+	return button;
 }
 
 @end
