@@ -42,5 +42,7 @@
 #import "NSString+Levenshtein.h"
 #import "UIScreen+FSIExtention.h"
 #import "UIDevice+FSIExtension.h"
+#import "UIImage+ImageEffects.h"
+#import "KeychainItemWrapper.h"
 
 #endif

@@ -15,6 +15,10 @@
 		E2C1D7571A3786C200FE8EDB /* UIScreen+FSIExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C1D7551A3786C200FE8EDB /* UIScreen+FSIExtention.m */; };
 		E2C1D75A1A37879400FE8EDB /* UIDevice+FSIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C1D7581A37879400FE8EDB /* UIDevice+FSIExtension.h */; };
 		E2C1D75B1A37879400FE8EDB /* UIDevice+FSIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C1D7591A37879400FE8EDB /* UIDevice+FSIExtension.m */; };
+		E2C1D7611A378FB100FE8EDB /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C1D75F1A378FB100FE8EDB /* UIImage+ImageEffects.h */; };
+		E2C1D7621A378FB100FE8EDB /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C1D7601A378FB100FE8EDB /* UIImage+ImageEffects.m */; };
+		E2C1D7651A37901F00FE8EDB /* KeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C1D7631A37901F00FE8EDB /* KeychainItemWrapper.h */; };
+		E2C1D7661A37901F00FE8EDB /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C1D7641A37901F00FE8EDB /* KeychainItemWrapper.m */; };
 		E2C87EDD19E459B100A23DB8 /* UILabel+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C87EDB19E459B100A23DB8 /* UILabel+FSIExtensions.h */; };
 		E2C87EDE19E459B100A23DB8 /* UILabel+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C87EDC19E459B100A23DB8 /* UILabel+FSIExtensions.m */; };
 		E2FC1FD81921C4A400D38AEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FC1FD71921C4A400D38AEA /* Foundation.framework */; };
@@ -74,6 +78,10 @@
 		E2C1D7551A3786C200FE8EDB /* UIScreen+FSIExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+FSIExtention.m"; sourceTree = "<group>"; };
 		E2C1D7581A37879400FE8EDB /* UIDevice+FSIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+FSIExtension.h"; sourceTree = "<group>"; };
 		E2C1D7591A37879400FE8EDB /* UIDevice+FSIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+FSIExtension.m"; sourceTree = "<group>"; };
+		E2C1D75F1A378FB100FE8EDB /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		E2C1D7601A378FB100FE8EDB /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		E2C1D7631A37901F00FE8EDB /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		E2C1D7641A37901F00FE8EDB /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 		E2C87EDB19E459B100A23DB8 /* UILabel+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FSIExtensions.h"; sourceTree = "<group>"; };
 		E2C87EDC19E459B100A23DB8 /* UILabel+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FSIExtensions.m"; sourceTree = "<group>"; };
 		E2FC1FD41921C4A400D38AEA /* libFSI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFSI.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,6 +225,10 @@
 				E2C1D7551A3786C200FE8EDB /* UIScreen+FSIExtention.m */,
 				E2C1D7581A37879400FE8EDB /* UIDevice+FSIExtension.h */,
 				E2C1D7591A37879400FE8EDB /* UIDevice+FSIExtension.m */,
+				E2C1D75F1A378FB100FE8EDB /* UIImage+ImageEffects.h */,
+				E2C1D7601A378FB100FE8EDB /* UIImage+ImageEffects.m */,
+				E2C1D7631A37901F00FE8EDB /* KeychainItemWrapper.h */,
+				E2C1D7641A37901F00FE8EDB /* KeychainItemWrapper.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -229,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2FC202F1921C60200D38AEA /* FSIDeviceHelper.h in Headers */,
+				E2C1D7611A378FB100FE8EDB /* UIImage+ImageEffects.h in Headers */,
 				E2FC20301921C60200D38AEA /* FSILogger.h in Headers */,
 				E2FC20311921C60200D38AEA /* FSIReachibility.h in Headers */,
 				E2FC20321921C60200D38AEA /* NSArray+FSIExtensions.h in Headers */,
@@ -247,6 +260,7 @@
 				E2FC203B1921C60300D38AEA /* UIScrollView+FSIExtensions.h in Headers */,
 				E2C1D75A1A37879400FE8EDB /* UIDevice+FSIExtension.h in Headers */,
 				E2FC203C1921C60300D38AEA /* UITextField+FSIExtensions.h in Headers */,
+				E2C1D7651A37901F00FE8EDB /* KeychainItemWrapper.h in Headers */,
 				E2FC203D1921C60300D38AEA /* UIView+Borders.h in Headers */,
 				E2FC203E1921C60300D38AEA /* UIView+FSIExtensions.h in Headers */,
 			);
@@ -308,6 +322,7 @@
 				E2FC20221921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.m in Sources */,
 				E2FC201F1921C4BB00D38AEA /* FSILogger.m in Sources */,
 				E2FC201E1921C4BB00D38AEA /* FSIDeviceHelper.m in Sources */,
+				E2C1D7621A378FB100FE8EDB /* UIImage+ImageEffects.m in Sources */,
 				E20381DB19E931A9005F536D /* NSString+Levenshtein.m in Sources */,
 				E2FC20271921C4BB00D38AEA /* UIButton+FSIExtensions.m in Sources */,
 				E2C87EDE19E459B100A23DB8 /* UILabel+FSIExtensions.m in Sources */,
@@ -319,6 +334,7 @@
 				30ADF20A19E5139F0077F76A /* UILabel+FSITextFormatted.m in Sources */,
 				E2FC20211921C4BB00D38AEA /* NSArray+FSIExtensions.m in Sources */,
 				E2FC20291921C4BB00D38AEA /* UIImage+FSIExtensions.m in Sources */,
+				E2C1D7661A37901F00FE8EDB /* KeychainItemWrapper.m in Sources */,
 				E2FC20261921C4BB00D38AEA /* UIAlertView+FSIExtensions.m in Sources */,
 				E2FC20241921C4BB00D38AEA /* NSObject+FSIExtensions.m in Sources */,
 				E2C1D7571A3786C200FE8EDB /* UIScreen+FSIExtention.m in Sources */,

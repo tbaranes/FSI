@@ -24,7 +24,7 @@
 /** Take a screnshot the screen
 	@returns an UIImage corresponding of the screenshot
  */
-+ (UIImage *)screenshot
++ (UIImage *)screenshot;
 
 /** Take a screnshot of a specific UIView
 	@param viewToCapture the view which will be used for the screenshot
