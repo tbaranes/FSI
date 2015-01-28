@@ -59,4 +59,8 @@
  */
 - (void)setRoundedViewToDiameter:(float)newSize withBorderColor:(UIColor *)color;
 
+/** Search and return the parent view controller
+ @returns parentController of the view if found
+ */
+- (UIViewController *)parentViewController;
 @end

@@ -125,4 +125,14 @@
 	[self.layer setBorderWidth:2.0f];
 }
 
+#pragma mark - Helper
+
+- (UIViewController *)parentViewController {
+	UIResponder *responder = self;
+	while ([responder isKindOfClass:[UIView class]]) {
+		responder = [responder nextResponder];
+	}
+	return (UIViewController *)responder;
+}
+
 @end

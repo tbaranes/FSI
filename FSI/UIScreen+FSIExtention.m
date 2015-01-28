@@ -1,6 +1,6 @@
 //
 //  UIScreen+KFExtention.m
-//  kfiphone
+//  FSI
 //
 //  Created by Tom Baranes on 08/12/14.
 //  Copyright (c) 2014 Recisio. All rights reserved.
