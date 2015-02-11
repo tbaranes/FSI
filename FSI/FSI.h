@@ -43,7 +43,7 @@
 #import "UIScreen+FSIExtention.h"
 #import "UIDevice+FSIExtension.h"
 #import "UIImage+ImageEffects.h"
-#import "NSUserDefaults+KFExtension.h"
-#import "NSFileManager+KFExtension.h"
+#import "NSUserDefaults+FSIExtension.h"
+#import "NSFileManager+FSIExtension.h"
 
 #endif

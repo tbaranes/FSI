@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSFileManager (KFExtension)
+@interface NSFileManager (FSIExtension)
 
 /** Clear the application's TMP directory
  */

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSUserDefaults (KFExtension)
+@interface NSUserDefaults (FSIExtension)
 
 /** Remove all the applications key/value stored in the userDefaults
  */

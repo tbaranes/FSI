@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 Recisio. All rights reserved.
 //
 
-#import "NSUserDefaults+KFExtension.h"
+#import "NSUserDefaults+FSIExtension.h"
 
-@implementation NSUserDefaults (KFExtension)
+@implementation NSUserDefaults (FSIExtension)
 
 - (void)resetUserDefaults {
 	NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];

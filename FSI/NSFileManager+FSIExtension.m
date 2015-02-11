@@ -8,7 +8,7 @@
 
 #import "NSFileManager+KFExtension.h"
 
-@implementation NSFileManager (KFExtension)
+@implementation NSFileManager (FSIExtension)
 
 - (void)clearTmpDirectory {
 	NSArray* tmpDirectory = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:NSTemporaryDirectory() error:NULL];
