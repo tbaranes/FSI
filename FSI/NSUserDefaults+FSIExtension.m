@@ -1,5 +1,5 @@
 //
-//  NSUserDefaults+KFExtension.m
+//  NSUserDefaults+FSIExtension.m
 //  FSI
 //
 //  Created by Tom Baranes on 21/01/15.

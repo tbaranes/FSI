@@ -1,5 +1,5 @@
 //
-//  UIScreen+KFExtention.m
+//  UIScreen+FSIExtention.m
 //  FSI
 //
 //  Created by Tom Baranes on 08/12/14.

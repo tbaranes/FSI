@@ -1,5 +1,5 @@
 //
-//  UIDevice+KFExtension.h
+//  UIDevice+FSIExtension.h
 //  FSI
 //
 //  Created by Tom Baranes on 04/12/14.

@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Recisio. All rights reserved.
 //
 
-#import "NSFileManager+KFExtension.h"
+#import "NSFileManager+FSIExtension.h"
 
 @implementation NSFileManager (FSIExtension)
 

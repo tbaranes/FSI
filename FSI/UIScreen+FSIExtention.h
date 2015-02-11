@@ -1,5 +1,5 @@
 //
-//  UIScreen+KFExtention.h
+//  UIScreen+FSIExtention.h
 //  FSI
 //
 //  Created by Tom Baranes on 08/12/14.

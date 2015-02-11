@@ -1,5 +1,5 @@
 //
-//  NSFileManager+KFExtension.h
+//  NSFileManager+FSIExtension.h
 //  FSI
 //
 //  Created by Tom Baranes on 19/01/15.
