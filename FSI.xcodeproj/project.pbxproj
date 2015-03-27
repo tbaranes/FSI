@@ -116,7 +116,7 @@
 		E2C1D7601A378FB100FE8EDB /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		E2C87EDB19E459B100A23DB8 /* UILabel+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FSIExtensions.h"; sourceTree = "<group>"; };
 		E2C87EDC19E459B100A23DB8 /* UILabel+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FSIExtensions.m"; sourceTree = "<group>"; };
-		E2FC1FD41921C4A400D38AEA /* libFSI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFSI.a; path = libios.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FC1FD41921C4A400D38AEA /* libios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libios.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FC1FD71921C4A400D38AEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2FC1FDB1921C4A400D38AEA /* FSI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSI-Prefix.pch"; sourceTree = "<group>"; };
 		E2FC1FE51921C4A400D38AEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -275,7 +275,7 @@
 		E2FC1FD51921C4A400D38AEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2FC1FD41921C4A400D38AEA /* libFSI.a */,
+				E2FC1FD41921C4A400D38AEA /* libios.a */,
 				E22771A61AC55E4800A2D8B1 /* libosx.a */,
 			);
 			name = Products;
@@ -406,7 +406,7 @@
 			);
 			name = ios;
 			productName = FSI;
-			productReference = E2FC1FD41921C4A400D38AEA /* libFSI.a */;
+			productReference = E2FC1FD41921C4A400D38AEA /* libios.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */

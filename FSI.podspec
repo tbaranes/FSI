@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/tbaranes/FSI.git', :tag => "0.1.2", :submodules => false }
   s.requires_arc = true
 
-  s.platform     = :ios, "7.0"
   s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.9'
 
   s.public_header_files = 'FSI/*.h'
   s.source_files = 'FSI/*.{h,m}'
