@@ -35,6 +35,8 @@
 		E228CE501A793B570096BEBF /* NSFileManager+FSIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E228CE4C1A793B570096BEBF /* NSFileManager+FSIExtension.m */; };
 		E228CE511A793B570096BEBF /* NSUserDefaults+FSIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E228CE4D1A793B570096BEBF /* NSUserDefaults+FSIExtension.h */; };
 		E228CE521A793B570096BEBF /* NSUserDefaults+FSIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E228CE4E1A793B570096BEBF /* NSUserDefaults+FSIExtension.m */; };
+		E26B99271AC5617D0051FB7D /* FSI.h in Headers */ = {isa = PBXBuildFile; fileRef = E2940CA819220350007B27C9 /* FSI.h */; };
+		E26B99281AC5617E0051FB7D /* FSI.h in Headers */ = {isa = PBXBuildFile; fileRef = E2940CA819220350007B27C9 /* FSI.h */; };
 		E2C1D7561A3786C200FE8EDB /* UIScreen+FSIExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C1D7541A3786C200FE8EDB /* UIScreen+FSIExtention.h */; };
 		E2C1D7571A3786C200FE8EDB /* UIScreen+FSIExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C1D7551A3786C200FE8EDB /* UIScreen+FSIExtention.m */; };
 		E2C1D75A1A37879400FE8EDB /* UIDevice+FSIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C1D7581A37879400FE8EDB /* UIDevice+FSIExtension.h */; };
@@ -114,7 +116,7 @@
 		E2C1D7601A378FB100FE8EDB /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		E2C87EDB19E459B100A23DB8 /* UILabel+FSIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FSIExtensions.h"; sourceTree = "<group>"; };
 		E2C87EDC19E459B100A23DB8 /* UILabel+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FSIExtensions.m"; sourceTree = "<group>"; };
-		E2FC1FD41921C4A400D38AEA /* libFSI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFSI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FC1FD41921C4A400D38AEA /* libFSI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFSI.a; path = libios.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FC1FD71921C4A400D38AEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2FC1FDB1921C4A400D38AEA /* FSI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSI-Prefix.pch"; sourceTree = "<group>"; };
 		E2FC1FE51921C4A400D38AEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -329,6 +331,7 @@
 				E22771C51AC55E8A00A2D8B1 /* NSNumberFormatter+FSIExtensions.h in Headers */,
 				E22771C11AC55E8A00A2D8B1 /* NSDateFormatter+FSIExtensions.h in Headers */,
 				E22771A91AC55E4800A2D8B1 /* osx.h in Headers */,
+				E26B99281AC5617E0051FB7D /* FSI.h in Headers */,
 				E22771CB1AC55E8A00A2D8B1 /* NSString+Levenshtein.h in Headers */,
 				E22771CD1AC55E8A00A2D8B1 /* NSUserDefaults+FSIExtension.h in Headers */,
 			);
@@ -355,6 +358,7 @@
 				E2C1D7561A3786C200FE8EDB /* UIScreen+FSIExtention.h in Headers */,
 				E21153051AC44FB200E4CB23 /* UIViewController+FSI.h in Headers */,
 				E228CE4F1A793B570096BEBF /* NSFileManager+FSIExtension.h in Headers */,
+				E26B99271AC5617D0051FB7D /* FSI.h in Headers */,
 				E2FC20391921C60300D38AEA /* UIColor+FSIExtensions.h in Headers */,
 				E2FC203A1921C60300D38AEA /* UIImage+FSIExtensions.h in Headers */,
 				E20381DA19E931A9005F536D /* NSString+Levenshtein.h in Headers */,
@@ -572,6 +576,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos osx";
 			};
 			name = Debug;
 		};
@@ -603,6 +608,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos osx";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -641,6 +647,7 @@
 				E22771B91AC55E4800A2D8B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2FC1FCF1921C4A400D38AEA /* Build configuration list for PBXProject "FSI" */ = {
 			isa = XCConfigurationList;
