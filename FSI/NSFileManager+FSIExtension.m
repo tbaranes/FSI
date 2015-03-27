@@ -18,7 +18,7 @@
 	if (!fileExists || !isDir) {
 		NSError *error = nil;
 		if (![[NSFileManager defaultManager] createDirectoryAtPath:path withIntermediateDirectories:YES attributes:nil error:&error]) {
-			FSILogD(@"%@", error);
+			NSLog(@"%@", error);
 		}
 	}
 }

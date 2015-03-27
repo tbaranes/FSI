@@ -16,6 +16,7 @@
 // limitations under the License.
 
 #import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 /** A delightful NSString category
  */
