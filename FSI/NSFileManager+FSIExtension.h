@@ -14,4 +14,26 @@
  */
 - (void)clearTmpDirectory;
 
+/**
+ *  Create a directory at path if it's not existing
+ *
+ *  @param path path of directory to check/create
+ */
+- (void)createDirectoryIfNotExistingForPath:(NSString *)path;
+
+/**
+ *  Delete all files saved in NSDocumentDirectory
+ */
+- (void)deleteAllFilesInDocumentDirectory;
+
+/**
+ *  Get and return all the documents stored sorte by creation date
+ *
+ *  @param URL			Path of the directory to sort
+ *  @param ascending    Ascending / descending
+ *
+ *  @return A list the directory contents sort by the date creation
+ */
+- (NSArray *)contentOfDocumentURL:(NSURL *)URL sortByDateAscending:(BOOL)ascending;
+
 @end

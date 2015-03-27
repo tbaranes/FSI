@@ -42,9 +42,11 @@
 #pragma mark - Substrings
 
 - (BOOL)containsSubstring:(NSString *)aString {
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
         return [self containsString:aString];
     }
+#endif
     return [self rangeOfString:aString].location != NSNotFound;
 }
 
