@@ -9,9 +9,24 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>osx.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>E22771A51AC55E4800A2D8B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E22771AF1AC55E4800A2D8B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E2FC1FD31921C4A400D38AEA</key>
 		<dict>
 			<key>primary</key>

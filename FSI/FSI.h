@@ -36,10 +36,10 @@
 	#import "FSIDeviceHelper.h"
 	#import "UIApplication+FSIExtensions.h"
 	#import "UIViewController+FSI.h"
+	#import "NSObject+FSIExtensions.h"
+	#import "FSILogger.h"
 #endif
 
-#import "FSILogger.h"
-#import "NSObject+FSIExtensions.h"
 #import "NSString+FSIExtensions.h"
 #import "NSNumberFormatter+FSIExtensions.h"
 #import "NSDateFormatter+FSIExtensions.h"

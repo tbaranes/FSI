@@ -15,6 +15,22 @@
 		E21153021AC44F0A00E4CB23 /* UIApplication+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E21153001AC44F0A00E4CB23 /* UIApplication+FSIExtensions.m */; };
 		E21153051AC44FB200E4CB23 /* UIViewController+FSI.h in Headers */ = {isa = PBXBuildFile; fileRef = E21153031AC44FB200E4CB23 /* UIViewController+FSI.h */; };
 		E21153061AC44FB200E4CB23 /* UIViewController+FSI.m in Sources */ = {isa = PBXBuildFile; fileRef = E21153041AC44FB200E4CB23 /* UIViewController+FSI.m */; };
+		E22771A91AC55E4800A2D8B1 /* osx.h in Headers */ = {isa = PBXBuildFile; fileRef = E22771A81AC55E4800A2D8B1 /* osx.h */; };
+		E22771AB1AC55E4800A2D8B1 /* osx.m in Sources */ = {isa = PBXBuildFile; fileRef = E22771AA1AC55E4800A2D8B1 /* osx.m */; };
+		E22771BF1AC55E8A00A2D8B1 /* NSArray+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20041921C4BB00D38AEA /* NSArray+FSIExtensions.h */; };
+		E22771C01AC55E8A00A2D8B1 /* NSArray+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20051921C4BB00D38AEA /* NSArray+FSIExtensions.m */; };
+		E22771C11AC55E8A00A2D8B1 /* NSDateFormatter+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20061921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.h */; };
+		E22771C21AC55E8A00A2D8B1 /* NSDateFormatter+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20071921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.m */; };
+		E22771C31AC55E8A00A2D8B1 /* NSFileManager+FSIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E228CE4B1A793B570096BEBF /* NSFileManager+FSIExtension.h */; };
+		E22771C41AC55E8A00A2D8B1 /* NSFileManager+FSIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E228CE4C1A793B570096BEBF /* NSFileManager+FSIExtension.m */; };
+		E22771C51AC55E8A00A2D8B1 /* NSNumberFormatter+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20081921C4BB00D38AEA /* NSNumberFormatter+FSIExtensions.h */; };
+		E22771C61AC55E8A00A2D8B1 /* NSNumberFormatter+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20091921C4BB00D38AEA /* NSNumberFormatter+FSIExtensions.m */; };
+		E22771C91AC55E8A00A2D8B1 /* NSString+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC200C1921C4BB00D38AEA /* NSString+FSIExtensions.h */; };
+		E22771CA1AC55E8A00A2D8B1 /* NSString+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC200D1921C4BB00D38AEA /* NSString+FSIExtensions.m */; };
+		E22771CB1AC55E8A00A2D8B1 /* NSString+Levenshtein.h in Headers */ = {isa = PBXBuildFile; fileRef = E20381D819E931A9005F536D /* NSString+Levenshtein.h */; };
+		E22771CC1AC55E8A00A2D8B1 /* NSString+Levenshtein.m in Sources */ = {isa = PBXBuildFile; fileRef = E20381D919E931A9005F536D /* NSString+Levenshtein.m */; };
+		E22771CD1AC55E8A00A2D8B1 /* NSUserDefaults+FSIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E228CE4D1A793B570096BEBF /* NSUserDefaults+FSIExtension.h */; };
+		E22771CE1AC55E8A00A2D8B1 /* NSUserDefaults+FSIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E228CE4E1A793B570096BEBF /* NSUserDefaults+FSIExtension.m */; };
 		E228CE4F1A793B570096BEBF /* NSFileManager+FSIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E228CE4B1A793B570096BEBF /* NSFileManager+FSIExtension.h */; };
 		E228CE501A793B570096BEBF /* NSFileManager+FSIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E228CE4C1A793B570096BEBF /* NSFileManager+FSIExtension.m */; };
 		E228CE511A793B570096BEBF /* NSUserDefaults+FSIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E228CE4D1A793B570096BEBF /* NSUserDefaults+FSIExtension.h */; };
@@ -81,6 +97,10 @@
 		E21153001AC44F0A00E4CB23 /* UIApplication+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+FSIExtensions.m"; sourceTree = "<group>"; };
 		E21153031AC44FB200E4CB23 /* UIViewController+FSI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FSI.h"; sourceTree = "<group>"; };
 		E21153041AC44FB200E4CB23 /* UIViewController+FSI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FSI.m"; sourceTree = "<group>"; };
+		E22771A61AC55E4800A2D8B1 /* libosx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libosx.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22771A81AC55E4800A2D8B1 /* osx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = osx.h; sourceTree = "<group>"; };
+		E22771AA1AC55E4800A2D8B1 /* osx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osx.m; sourceTree = "<group>"; };
+		E22771B61AC55E4800A2D8B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E228CE4B1A793B570096BEBF /* NSFileManager+FSIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+FSIExtension.h"; sourceTree = "<group>"; };
 		E228CE4C1A793B570096BEBF /* NSFileManager+FSIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+FSIExtension.m"; sourceTree = "<group>"; };
 		E228CE4D1A793B570096BEBF /* NSUserDefaults+FSIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+FSIExtension.h"; sourceTree = "<group>"; };
@@ -132,6 +152,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E22771A31AC55E4800A2D8B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2FC1FD11921C4A400D38AEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,6 +173,10 @@
 		E21153071AC4507400E4CB23 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				E2FC200A1921C4BB00D38AEA /* NSObject+FSIExtensions.h */,
+				E2FC200B1921C4BB00D38AEA /* NSObject+FSIExtensions.m */,
+				E2FC20001921C4BB00D38AEA /* FSILogger.h */,
+				E2FC20011921C4BB00D38AEA /* FSILogger.m */,
 				E2FC1FFE1921C4BB00D38AEA /* FSIDeviceHelper.h */,
 				E2FC1FFF1921C4BB00D38AEA /* FSIDeviceHelper.m */,
 				E2FC200E1921C4BB00D38AEA /* UIAlertView+FSIExtensions.h */,
@@ -185,8 +216,6 @@
 		E21153081AC450DE00E4CB23 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				E2FC20001921C4BB00D38AEA /* FSILogger.h */,
-				E2FC20011921C4BB00D38AEA /* FSILogger.m */,
 				E2FC20041921C4BB00D38AEA /* NSArray+FSIExtensions.h */,
 				E2FC20051921C4BB00D38AEA /* NSArray+FSIExtensions.m */,
 				E2FC20061921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.h */,
@@ -195,8 +224,6 @@
 				E228CE4C1A793B570096BEBF /* NSFileManager+FSIExtension.m */,
 				E2FC20081921C4BB00D38AEA /* NSNumberFormatter+FSIExtensions.h */,
 				E2FC20091921C4BB00D38AEA /* NSNumberFormatter+FSIExtensions.m */,
-				E2FC200A1921C4BB00D38AEA /* NSObject+FSIExtensions.h */,
-				E2FC200B1921C4BB00D38AEA /* NSObject+FSIExtensions.m */,
 				E2FC200C1921C4BB00D38AEA /* NSString+FSIExtensions.h */,
 				E2FC200D1921C4BB00D38AEA /* NSString+FSIExtensions.m */,
 				E20381D819E931A9005F536D /* NSString+Levenshtein.h */,
@@ -207,10 +234,37 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		E22771A71AC55E4800A2D8B1 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				E22771A81AC55E4800A2D8B1 /* osx.h */,
+				E22771AA1AC55E4800A2D8B1 /* osx.m */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		E22771B41AC55E4800A2D8B1 /* osxTests */ = {
+			isa = PBXGroup;
+			children = (
+				E22771B51AC55E4800A2D8B1 /* Supporting Files */,
+			);
+			path = osxTests;
+			sourceTree = "<group>";
+		};
+		E22771B51AC55E4800A2D8B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E22771B61AC55E4800A2D8B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		E2FC1FCB1921C4A400D38AEA = {
 			isa = PBXGroup;
 			children = (
 				E2FC1FD91921C4A400D38AEA /* FSI */,
+				E22771A71AC55E4800A2D8B1 /* osx */,
+				E22771B41AC55E4800A2D8B1 /* osxTests */,
 				E2FC1FD61921C4A400D38AEA /* Frameworks */,
 				E2FC1FD51921C4A400D38AEA /* Products */,
 			);
@@ -220,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				E2FC1FD41921C4A400D38AEA /* libFSI.a */,
+				E22771A61AC55E4800A2D8B1 /* libosx.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,6 +319,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		E22771A41AC55E4800A2D8B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22771BF1AC55E8A00A2D8B1 /* NSArray+FSIExtensions.h in Headers */,
+				E22771C31AC55E8A00A2D8B1 /* NSFileManager+FSIExtension.h in Headers */,
+				E22771C91AC55E8A00A2D8B1 /* NSString+FSIExtensions.h in Headers */,
+				E22771C51AC55E8A00A2D8B1 /* NSNumberFormatter+FSIExtensions.h in Headers */,
+				E22771C11AC55E8A00A2D8B1 /* NSDateFormatter+FSIExtensions.h in Headers */,
+				E22771A91AC55E4800A2D8B1 /* osx.h in Headers */,
+				E22771CB1AC55E8A00A2D8B1 /* NSString+Levenshtein.h in Headers */,
+				E22771CD1AC55E8A00A2D8B1 /* NSUserDefaults+FSIExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2FC202E1921C5DE00D38AEA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,9 +369,26 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E2FC1FD31921C4A400D38AEA /* FSI */ = {
+		E22771A51AC55E4800A2D8B1 /* osx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2FC1FF71921C4A400D38AEA /* Build configuration list for PBXNativeTarget "FSI" */;
+			buildConfigurationList = E22771B71AC55E4800A2D8B1 /* Build configuration list for PBXNativeTarget "osx" */;
+			buildPhases = (
+				E22771A21AC55E4800A2D8B1 /* Sources */,
+				E22771A31AC55E4800A2D8B1 /* Frameworks */,
+				E22771A41AC55E4800A2D8B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = osx;
+			productName = osx;
+			productReference = E22771A61AC55E4800A2D8B1 /* libosx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E2FC1FD31921C4A400D38AEA /* ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FC1FF71921C4A400D38AEA /* Build configuration list for PBXNativeTarget "ios" */;
 			buildPhases = (
 				E2FC1FD01921C4A400D38AEA /* Sources */,
 				E2FC1FD11921C4A400D38AEA /* Frameworks */,
@@ -313,7 +400,7 @@
 			);
 			dependencies = (
 			);
-			name = FSI;
+			name = ios;
 			productName = FSI;
 			productReference = E2FC1FD41921C4A400D38AEA /* libFSI.a */;
 			productType = "com.apple.product-type.library.static";
@@ -326,6 +413,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Tom Baranes";
+				TargetAttributes = {
+					E22771A51AC55E4800A2D8B1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
 			};
 			buildConfigurationList = E2FC1FCF1921C4A400D38AEA /* Build configuration list for PBXProject "FSI" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -339,7 +431,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2FC1FD31921C4A400D38AEA /* FSI */,
+				E2FC1FD31921C4A400D38AEA /* ios */,
+				E22771A51AC55E4800A2D8B1 /* osx */,
 			);
 		};
 /* End PBXProject section */
@@ -362,6 +455,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E22771A21AC55E4800A2D8B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22771CA1AC55E8A00A2D8B1 /* NSString+FSIExtensions.m in Sources */,
+				E22771C01AC55E8A00A2D8B1 /* NSArray+FSIExtensions.m in Sources */,
+				E22771C41AC55E8A00A2D8B1 /* NSFileManager+FSIExtension.m in Sources */,
+				E22771CC1AC55E8A00A2D8B1 /* NSString+Levenshtein.m in Sources */,
+				E22771CE1AC55E8A00A2D8B1 /* NSUserDefaults+FSIExtension.m in Sources */,
+				E22771C21AC55E8A00A2D8B1 /* NSDateFormatter+FSIExtensions.m in Sources */,
+				E22771AB1AC55E4800A2D8B1 /* osx.m in Sources */,
+				E22771C61AC55E8A00A2D8B1 /* NSNumberFormatter+FSIExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2FC1FD01921C4A400D38AEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,6 +505,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		E22771B81AC55E4800A2D8B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E22771B91AC55E4800A2D8B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		E2FC1FF51921C4A400D38AEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -429,6 +569,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -460,6 +601,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -492,6 +634,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E22771B71AC55E4800A2D8B1 /* Build configuration list for PBXNativeTarget "osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22771B81AC55E4800A2D8B1 /* Debug */,
+				E22771B91AC55E4800A2D8B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E2FC1FCF1921C4A400D38AEA /* Build configuration list for PBXProject "FSI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -501,7 +651,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2FC1FF71921C4A400D38AEA /* Build configuration list for PBXNativeTarget "FSI" */ = {
+		E2FC1FF71921C4A400D38AEA /* Build configuration list for PBXNativeTarget "ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2FC1FF81921C4A400D38AEA /* Debug */,
