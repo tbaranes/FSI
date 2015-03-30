@@ -21,11 +21,15 @@
  */
 @interface NSObject (FSIExtensions)
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 /** Create an object from a class
  @param aClass class to create
  @param nibName the name of nib, if a nib is linked
  @returns a NSDateFormatter with a basic date style
  */
 + (id)createObjectOfClass:(Class)aClass fromNibNamed:(NSString *)nibName;
+
+#endif
 
 @end

@@ -27,14 +27,19 @@
  */
 + (NSString *)getApplicationVersion;
 
-/** Shortcut to get the device version
- @returns a string representing the device version
- */
-+ (NSString *)getDeviceVersion;
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
 
 /** Look for what kind of model is used
 	@returns a string representing the device name. If the device isn't identified, it will return the original string
  */
 + (NSString *)getDeviceType;
+
+/** Shortcut to get the device version
+ @returns a string representing the device version
+ */
++ (NSString *)getDeviceVersion;
+
+
+#endif
 
 @end

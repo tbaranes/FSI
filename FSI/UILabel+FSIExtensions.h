@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Tom Baranes. All rights reserved.
 //
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 #import <UIKit/UIKit.h>
 
 @interface UILabel (FSIExtensions)
@@ -16,3 +18,5 @@
 - (BOOL)isTruncated;
 
 @end
+
+#endif

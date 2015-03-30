@@ -61,7 +61,11 @@ static NSFileHandle *logFileHandle = nil;
 		[header appendString:@"\n\n==============================\n"];
 		[header appendFormat:@"= New session - Start date: %@\n", [NSDate date]];
 		
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
 		[header appendFormat:@"= Device: MODEL %@ - iOS %@\n", [[UIDevice currentDevice] model], [[UIDevice currentDevice] systemVersion]];
+#else
+		[header appendFormat:@"= OSX %@\n", [[NSBundle mainBundle] objectForInfoDictionaryKey: @"CFBundleShortVersionString"]];
+#endif
 		
 		[header appendFormat:@"= Application: DISPLAY NAME %@ - ID %@ - VERSION %@\n",
 		 [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"],

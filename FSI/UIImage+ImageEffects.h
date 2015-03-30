@@ -93,6 +93,8 @@
  5/3/2013
  */
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 #import <UIKit/UIKit.h>
 
 @interface UIImage (ImageEffects)
@@ -105,3 +107,5 @@
 - (UIImage *)applyBlurWithRadius:(CGFloat)blurRadius tintColor:(UIColor *)tintColor saturationDeltaFactor:(CGFloat)saturationDeltaFactor maskImage:(UIImage *)maskImage;
 
 @end
+
+#endif

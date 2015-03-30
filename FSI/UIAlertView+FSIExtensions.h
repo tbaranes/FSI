@@ -15,6 +15,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 #import <UIKit/UIKit.h>
 
 /** A delightful UIAlertView category
@@ -25,3 +27,5 @@
 + (void)showTitle:(NSString *)aTitle message:(NSString *)aMessage delegate:(id<UIAlertViewDelegate>)aDelegate;
 
 @end
+
+#endif

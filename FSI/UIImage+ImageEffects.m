@@ -93,6 +93,8 @@
  5/3/2013
  */
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 #import "UIImage+ImageEffects.h"
 
 @import Accelerate;
@@ -276,3 +278,5 @@
 
 
 @end
+
+#endif

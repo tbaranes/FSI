@@ -15,8 +15,6 @@
 		E21153021AC44F0A00E4CB23 /* UIApplication+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E21153001AC44F0A00E4CB23 /* UIApplication+FSIExtensions.m */; };
 		E21153051AC44FB200E4CB23 /* UIViewController+FSI.h in Headers */ = {isa = PBXBuildFile; fileRef = E21153031AC44FB200E4CB23 /* UIViewController+FSI.h */; };
 		E21153061AC44FB200E4CB23 /* UIViewController+FSI.m in Sources */ = {isa = PBXBuildFile; fileRef = E21153041AC44FB200E4CB23 /* UIViewController+FSI.m */; };
-		E22771A91AC55E4800A2D8B1 /* osx.h in Headers */ = {isa = PBXBuildFile; fileRef = E22771A81AC55E4800A2D8B1 /* osx.h */; };
-		E22771AB1AC55E4800A2D8B1 /* osx.m in Sources */ = {isa = PBXBuildFile; fileRef = E22771AA1AC55E4800A2D8B1 /* osx.m */; };
 		E22771BF1AC55E8A00A2D8B1 /* NSArray+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20041921C4BB00D38AEA /* NSArray+FSIExtensions.h */; };
 		E22771C01AC55E8A00A2D8B1 /* NSArray+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20051921C4BB00D38AEA /* NSArray+FSIExtensions.m */; };
 		E22771C11AC55E8A00A2D8B1 /* NSDateFormatter+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20061921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.h */; };
@@ -45,6 +43,42 @@
 		E2C1D7621A378FB100FE8EDB /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C1D7601A378FB100FE8EDB /* UIImage+ImageEffects.m */; };
 		E2C87EDD19E459B100A23DB8 /* UILabel+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C87EDB19E459B100A23DB8 /* UILabel+FSIExtensions.h */; };
 		E2C87EDE19E459B100A23DB8 /* UILabel+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C87EDC19E459B100A23DB8 /* UILabel+FSIExtensions.m */; };
+		E2CE3E731AC970B100FE8992 /* NSObject+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC200A1921C4BB00D38AEA /* NSObject+FSIExtensions.h */; };
+		E2CE3E741AC970B100FE8992 /* NSObject+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC200B1921C4BB00D38AEA /* NSObject+FSIExtensions.m */; };
+		E2CE3E751AC970B100FE8992 /* FSILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20001921C4BB00D38AEA /* FSILogger.h */; };
+		E2CE3E761AC970B100FE8992 /* FSILogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20011921C4BB00D38AEA /* FSILogger.m */; };
+		E2CE3E771AC970B100FE8992 /* FSIDeviceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC1FFE1921C4BB00D38AEA /* FSIDeviceHelper.h */; };
+		E2CE3E781AC970B100FE8992 /* FSIDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC1FFF1921C4BB00D38AEA /* FSIDeviceHelper.m */; };
+		E2CE3E791AC970B100FE8992 /* UIAlertView+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC200E1921C4BB00D38AEA /* UIAlertView+FSIExtensions.h */; };
+		E2CE3E7A1AC970B100FE8992 /* UIAlertView+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC200F1921C4BB00D38AEA /* UIAlertView+FSIExtensions.m */; };
+		E2CE3E7B1AC970B100FE8992 /* UIApplication+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E21152FF1AC44F0A00E4CB23 /* UIApplication+FSIExtensions.h */; };
+		E2CE3E7C1AC970B100FE8992 /* UIApplication+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E21153001AC44F0A00E4CB23 /* UIApplication+FSIExtensions.m */; };
+		E2CE3E7D1AC970B100FE8992 /* UIButton+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20101921C4BB00D38AEA /* UIButton+FSIExtensions.h */; };
+		E2CE3E7E1AC970B100FE8992 /* UIButton+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20111921C4BB00D38AEA /* UIButton+FSIExtensions.m */; };
+		E2CE3E7F1AC970B100FE8992 /* UIColor+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20121921C4BB00D38AEA /* UIColor+FSIExtensions.h */; };
+		E2CE3E801AC970B100FE8992 /* UIColor+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20131921C4BB00D38AEA /* UIColor+FSIExtensions.m */; };
+		E2CE3E811AC970B100FE8992 /* UIDevice+FSIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C1D7581A37879400FE8EDB /* UIDevice+FSIExtension.h */; };
+		E2CE3E821AC970B100FE8992 /* UIDevice+FSIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C1D7591A37879400FE8EDB /* UIDevice+FSIExtension.m */; };
+		E2CE3E831AC970B100FE8992 /* UIImage+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20141921C4BB00D38AEA /* UIImage+FSIExtensions.h */; };
+		E2CE3E841AC970B100FE8992 /* UIImage+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20151921C4BB00D38AEA /* UIImage+FSIExtensions.m */; };
+		E2CE3E851AC970B100FE8992 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C1D75F1A378FB100FE8EDB /* UIImage+ImageEffects.h */; };
+		E2CE3E861AC970B100FE8992 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C1D7601A378FB100FE8EDB /* UIImage+ImageEffects.m */; };
+		E2CE3E871AC970B100FE8992 /* UILabel+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C87EDB19E459B100A23DB8 /* UILabel+FSIExtensions.h */; };
+		E2CE3E881AC970B100FE8992 /* UILabel+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C87EDC19E459B100A23DB8 /* UILabel+FSIExtensions.m */; };
+		E2CE3E891AC970B100FE8992 /* UILabel+FSITextFormatted.h in Headers */ = {isa = PBXBuildFile; fileRef = 30ADF20719E5139F0077F76A /* UILabel+FSITextFormatted.h */; };
+		E2CE3E8A1AC970B100FE8992 /* UILabel+FSITextFormatted.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ADF20819E5139F0077F76A /* UILabel+FSITextFormatted.m */; };
+		E2CE3E8B1AC970B100FE8992 /* UIScreen+FSIExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C1D7541A3786C200FE8EDB /* UIScreen+FSIExtention.h */; };
+		E2CE3E8C1AC970B100FE8992 /* UIScreen+FSIExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C1D7551A3786C200FE8EDB /* UIScreen+FSIExtention.m */; };
+		E2CE3E8D1AC970B100FE8992 /* UIScrollView+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20161921C4BB00D38AEA /* UIScrollView+FSIExtensions.h */; };
+		E2CE3E8E1AC970B100FE8992 /* UIScrollView+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20171921C4BB00D38AEA /* UIScrollView+FSIExtensions.m */; };
+		E2CE3E8F1AC970B100FE8992 /* UITextField+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20181921C4BB00D38AEA /* UITextField+FSIExtensions.h */; };
+		E2CE3E901AC970B100FE8992 /* UITextField+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20191921C4BB00D38AEA /* UITextField+FSIExtensions.m */; };
+		E2CE3E911AC970B100FE8992 /* UIView+Borders.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC201A1921C4BB00D38AEA /* UIView+Borders.h */; };
+		E2CE3E921AC970B100FE8992 /* UIView+Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC201B1921C4BB00D38AEA /* UIView+Borders.m */; };
+		E2CE3E931AC970B100FE8992 /* UIView+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC201C1921C4BB00D38AEA /* UIView+FSIExtensions.h */; };
+		E2CE3E941AC970B100FE8992 /* UIView+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC201D1921C4BB00D38AEA /* UIView+FSIExtensions.m */; };
+		E2CE3E951AC970B100FE8992 /* UIViewController+FSI.h in Headers */ = {isa = PBXBuildFile; fileRef = E21153031AC44FB200E4CB23 /* UIViewController+FSI.h */; };
+		E2CE3E961AC970B100FE8992 /* UIViewController+FSI.m in Sources */ = {isa = PBXBuildFile; fileRef = E21153041AC44FB200E4CB23 /* UIViewController+FSI.m */; };
 		E2FC1FD81921C4A400D38AEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FC1FD71921C4A400D38AEA /* Foundation.framework */; };
 		E2FC201E1921C4BB00D38AEA /* FSIDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC1FFF1921C4BB00D38AEA /* FSIDeviceHelper.m */; };
 		E2FC201F1921C4BB00D38AEA /* FSILogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20011921C4BB00D38AEA /* FSILogger.m */; };
@@ -100,9 +134,6 @@
 		E21153031AC44FB200E4CB23 /* UIViewController+FSI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FSI.h"; sourceTree = "<group>"; };
 		E21153041AC44FB200E4CB23 /* UIViewController+FSI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FSI.m"; sourceTree = "<group>"; };
 		E22771A61AC55E4800A2D8B1 /* libosx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libosx.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E22771A81AC55E4800A2D8B1 /* osx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = osx.h; sourceTree = "<group>"; };
-		E22771AA1AC55E4800A2D8B1 /* osx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osx.m; sourceTree = "<group>"; };
-		E22771B61AC55E4800A2D8B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E228CE4B1A793B570096BEBF /* NSFileManager+FSIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+FSIExtension.h"; sourceTree = "<group>"; };
 		E228CE4C1A793B570096BEBF /* NSFileManager+FSIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+FSIExtension.m"; sourceTree = "<group>"; };
 		E228CE4D1A793B570096BEBF /* NSUserDefaults+FSIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+FSIExtension.h"; sourceTree = "<group>"; };
@@ -175,12 +206,6 @@
 		E21153071AC4507400E4CB23 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E2FC200A1921C4BB00D38AEA /* NSObject+FSIExtensions.h */,
-				E2FC200B1921C4BB00D38AEA /* NSObject+FSIExtensions.m */,
-				E2FC20001921C4BB00D38AEA /* FSILogger.h */,
-				E2FC20011921C4BB00D38AEA /* FSILogger.m */,
-				E2FC1FFE1921C4BB00D38AEA /* FSIDeviceHelper.h */,
-				E2FC1FFF1921C4BB00D38AEA /* FSIDeviceHelper.m */,
 				E2FC200E1921C4BB00D38AEA /* UIAlertView+FSIExtensions.h */,
 				E2FC200F1921C4BB00D38AEA /* UIAlertView+FSIExtensions.m */,
 				E21152FF1AC44F0A00E4CB23 /* UIApplication+FSIExtensions.h */,
@@ -218,6 +243,10 @@
 		E21153081AC450DE00E4CB23 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				E2FC200A1921C4BB00D38AEA /* NSObject+FSIExtensions.h */,
+				E2FC200B1921C4BB00D38AEA /* NSObject+FSIExtensions.m */,
+				E2FC20001921C4BB00D38AEA /* FSILogger.h */,
+				E2FC20011921C4BB00D38AEA /* FSILogger.m */,
 				E2FC20041921C4BB00D38AEA /* NSArray+FSIExtensions.h */,
 				E2FC20051921C4BB00D38AEA /* NSArray+FSIExtensions.m */,
 				E2FC20061921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.h */,
@@ -232,41 +261,16 @@
 				E20381D919E931A9005F536D /* NSString+Levenshtein.m */,
 				E228CE4D1A793B570096BEBF /* NSUserDefaults+FSIExtension.h */,
 				E228CE4E1A793B570096BEBF /* NSUserDefaults+FSIExtension.m */,
+				E2FC1FFE1921C4BB00D38AEA /* FSIDeviceHelper.h */,
+				E2FC1FFF1921C4BB00D38AEA /* FSIDeviceHelper.m */,
 			);
 			name = Core;
-			sourceTree = "<group>";
-		};
-		E22771A71AC55E4800A2D8B1 /* osx */ = {
-			isa = PBXGroup;
-			children = (
-				E22771A81AC55E4800A2D8B1 /* osx.h */,
-				E22771AA1AC55E4800A2D8B1 /* osx.m */,
-			);
-			path = osx;
-			sourceTree = "<group>";
-		};
-		E22771B41AC55E4800A2D8B1 /* osxTests */ = {
-			isa = PBXGroup;
-			children = (
-				E22771B51AC55E4800A2D8B1 /* Supporting Files */,
-			);
-			path = osxTests;
-			sourceTree = "<group>";
-		};
-		E22771B51AC55E4800A2D8B1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E22771B61AC55E4800A2D8B1 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E2FC1FCB1921C4A400D38AEA = {
 			isa = PBXGroup;
 			children = (
 				E2FC1FD91921C4A400D38AEA /* FSI */,
-				E22771A71AC55E4800A2D8B1 /* osx */,
-				E22771B41AC55E4800A2D8B1 /* osxTests */,
 				E2FC1FD61921C4A400D38AEA /* Frameworks */,
 				E2FC1FD51921C4A400D38AEA /* Products */,
 			);
@@ -326,12 +330,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				E22771BF1AC55E8A00A2D8B1 /* NSArray+FSIExtensions.h in Headers */,
+				E2CE3E8D1AC970B100FE8992 /* UIScrollView+FSIExtensions.h in Headers */,
+				E2CE3E951AC970B100FE8992 /* UIViewController+FSI.h in Headers */,
+				E2CE3E8F1AC970B100FE8992 /* UITextField+FSIExtensions.h in Headers */,
+				E2CE3E851AC970B100FE8992 /* UIImage+ImageEffects.h in Headers */,
+				E2CE3E8B1AC970B100FE8992 /* UIScreen+FSIExtention.h in Headers */,
+				E2CE3E831AC970B100FE8992 /* UIImage+FSIExtensions.h in Headers */,
+				E2CE3E731AC970B100FE8992 /* NSObject+FSIExtensions.h in Headers */,
 				E22771C31AC55E8A00A2D8B1 /* NSFileManager+FSIExtension.h in Headers */,
+				E2CE3E7B1AC970B100FE8992 /* UIApplication+FSIExtensions.h in Headers */,
+				E2CE3E891AC970B100FE8992 /* UILabel+FSITextFormatted.h in Headers */,
+				E2CE3E791AC970B100FE8992 /* UIAlertView+FSIExtensions.h in Headers */,
+				E2CE3E811AC970B100FE8992 /* UIDevice+FSIExtension.h in Headers */,
 				E22771C91AC55E8A00A2D8B1 /* NSString+FSIExtensions.h in Headers */,
 				E22771C51AC55E8A00A2D8B1 /* NSNumberFormatter+FSIExtensions.h in Headers */,
 				E22771C11AC55E8A00A2D8B1 /* NSDateFormatter+FSIExtensions.h in Headers */,
-				E22771A91AC55E4800A2D8B1 /* osx.h in Headers */,
+				E2CE3E7F1AC970B100FE8992 /* UIColor+FSIExtensions.h in Headers */,
 				E26B99281AC5617E0051FB7D /* FSI.h in Headers */,
+				E2CE3E771AC970B100FE8992 /* FSIDeviceHelper.h in Headers */,
+				E2CE3E751AC970B100FE8992 /* FSILogger.h in Headers */,
+				E2CE3E911AC970B100FE8992 /* UIView+Borders.h in Headers */,
+				E2CE3E931AC970B100FE8992 /* UIView+FSIExtensions.h in Headers */,
+				E2CE3E871AC970B100FE8992 /* UILabel+FSIExtensions.h in Headers */,
+				E2CE3E7D1AC970B100FE8992 /* UIButton+FSIExtensions.h in Headers */,
 				E22771CB1AC55E8A00A2D8B1 /* NSString+Levenshtein.h in Headers */,
 				E22771CD1AC55E8A00A2D8B1 /* NSUserDefaults+FSIExtension.h in Headers */,
 			);
@@ -463,14 +484,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2CE3E8A1AC970B100FE8992 /* UILabel+FSITextFormatted.m in Sources */,
+				E2CE3E8E1AC970B100FE8992 /* UIScrollView+FSIExtensions.m in Sources */,
+				E2CE3E841AC970B100FE8992 /* UIImage+FSIExtensions.m in Sources */,
+				E2CE3E881AC970B100FE8992 /* UILabel+FSIExtensions.m in Sources */,
+				E2CE3E8C1AC970B100FE8992 /* UIScreen+FSIExtention.m in Sources */,
+				E2CE3E821AC970B100FE8992 /* UIDevice+FSIExtension.m in Sources */,
+				E2CE3E801AC970B100FE8992 /* UIColor+FSIExtensions.m in Sources */,
+				E2CE3E741AC970B100FE8992 /* NSObject+FSIExtensions.m in Sources */,
+				E2CE3E7A1AC970B100FE8992 /* UIAlertView+FSIExtensions.m in Sources */,
+				E2CE3E761AC970B100FE8992 /* FSILogger.m in Sources */,
 				E22771CA1AC55E8A00A2D8B1 /* NSString+FSIExtensions.m in Sources */,
 				E22771C01AC55E8A00A2D8B1 /* NSArray+FSIExtensions.m in Sources */,
 				E22771C41AC55E8A00A2D8B1 /* NSFileManager+FSIExtension.m in Sources */,
 				E22771CC1AC55E8A00A2D8B1 /* NSString+Levenshtein.m in Sources */,
+				E2CE3E901AC970B100FE8992 /* UITextField+FSIExtensions.m in Sources */,
+				E2CE3E961AC970B100FE8992 /* UIViewController+FSI.m in Sources */,
+				E2CE3E941AC970B100FE8992 /* UIView+FSIExtensions.m in Sources */,
+				E2CE3E7C1AC970B100FE8992 /* UIApplication+FSIExtensions.m in Sources */,
 				E22771CE1AC55E8A00A2D8B1 /* NSUserDefaults+FSIExtension.m in Sources */,
+				E2CE3E921AC970B100FE8992 /* UIView+Borders.m in Sources */,
 				E22771C21AC55E8A00A2D8B1 /* NSDateFormatter+FSIExtensions.m in Sources */,
-				E22771AB1AC55E4800A2D8B1 /* osx.m in Sources */,
+				E2CE3E781AC970B100FE8992 /* FSIDeviceHelper.m in Sources */,
 				E22771C61AC55E8A00A2D8B1 /* NSNumberFormatter+FSIExtensions.m in Sources */,
+				E2CE3E7E1AC970B100FE8992 /* UIButton+FSIExtensions.m in Sources */,
+				E2CE3E861AC970B100FE8992 /* UIImage+ImageEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +562,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = Debug;
 		};
@@ -540,6 +579,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = Release;
 		};

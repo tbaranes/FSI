@@ -8,6 +8,8 @@
 
 #import "UILabel+FSITextFormatted.h"
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 @implementation UILabel (FSITextFormatted)
 
 #pragma mark - Text color
@@ -76,3 +78,5 @@
 }
 
 @end
+
+#endif

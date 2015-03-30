@@ -8,6 +8,8 @@
 
 #import "UIApplication+FSIExtensions.h"
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 @implementation UIApplication (FSIExtensions)
 
 - (CGFloat)statusBarHeight {
@@ -15,3 +17,5 @@
 }
 
 @end
+
+#endif

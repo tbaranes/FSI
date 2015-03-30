@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Tom Baranes. All rights reserved.
 //
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 #import "UILabel+FSIExtensions.h"
 
 @implementation UILabel (FSIExtensions)
@@ -26,3 +28,5 @@
 }
 
 @end
+
+#endif

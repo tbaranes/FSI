@@ -17,6 +17,8 @@
 
 #import "UITextField+FSIExtensions.h"
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 @implementation UITextField (FSIExtensions)
 
 - (void)addLeftImage:(UIImage *)image {
@@ -36,3 +38,4 @@
 
 @end
 
+#endif

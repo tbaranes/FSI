@@ -17,6 +17,8 @@
 //
 // Thanks to aaronn for this usefull category: https://github.com/aaronn/UIView-Borders
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 #import <UIKit/UIKit.h>
 
 @interface UIView (Borders)
@@ -97,3 +99,5 @@
 -(void)addViewBackedLeftBorderWithWidth: (CGFloat)width color:(UIColor*)color leftOffset:(CGFloat)leftOffset topOffset:(CGFloat)topOffset andBottomOffset:(CGFloat)bottomOffset;
 
 @end
+
+#endif

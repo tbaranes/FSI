@@ -15,7 +15,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
 #import <UIKit/UIKit.h>
+#endif
+
 #include <sys/types.h>
 #include <sys/sysctl.h>
 
@@ -23,15 +26,19 @@
 
 @implementation FSIDeviceHelper
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
 + (NSString *)getDeviceVersion {
 	return [[UIDevice currentDevice] systemVersion];
 }
+#endif
 
 + (NSString *)getApplicationVersion {
 	return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
 }
 
 #pragma mark - Device type
+
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
 
 + (NSString *)getDeviceType {
 	size_t size;
@@ -81,4 +88,5 @@
 	return sDeviceModel;
 }
 
+#endif
 @end

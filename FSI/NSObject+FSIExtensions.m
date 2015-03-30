@@ -15,11 +15,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
 #import <UIKit/UIKit.h>
+#endif
 
 #import "NSObject+FSIExtensions.h"
 
 @implementation NSObject (FSIExtensions)
+
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
 
 + (id)createObjectOfClass:(Class)aClass fromNibNamed:(NSString *)nibName
 {
@@ -33,5 +37,7 @@
 	}
 	return object;
 }
+
+#endif
 
 @end

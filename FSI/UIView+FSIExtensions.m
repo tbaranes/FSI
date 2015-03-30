@@ -20,6 +20,8 @@
 #import "UIView+FSIExtensions.h"
 #import "NSObject+FSIExtensions.h"
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 @implementation UIView (FSIExtensions)
 
 #pragma mark - Helper
@@ -136,3 +138,5 @@
 }
 
 @end
+
+#endif

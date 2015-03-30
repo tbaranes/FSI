@@ -15,6 +15,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 #import <UIKit/UIKit.h>
 
 /** A delightful UIColor category
@@ -28,3 +30,5 @@
 + (UIColor *)colorWithHexString:(NSString *)hexString;
 
 @end
+
+#endif

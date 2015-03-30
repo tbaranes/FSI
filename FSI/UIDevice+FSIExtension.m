@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Recisio. All rights reserved.
 //
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 #import "UIDevice+FSIExtension.h"
 
 @implementation UIDevice (FSIExtension)
@@ -16,3 +18,5 @@
 }
 
 @end
+
+#endif

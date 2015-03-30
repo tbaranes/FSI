@@ -17,6 +17,8 @@
 
 #import "UIAlertView+FSIExtensions.h"
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 @implementation UIAlertView (FSIExtensions)
 
 /** A quick way to create and show an UIAlertView
@@ -40,3 +42,5 @@
 }
 
 @end
+
+#endif

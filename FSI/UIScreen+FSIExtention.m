@@ -8,6 +8,8 @@
 
 #import "UIScreen+FSIExtention.h"
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 @implementation UIScreen (FSIExtention)
 
 #pragma mark - 
@@ -26,3 +28,5 @@
 }
 
 @end
+
+#endif

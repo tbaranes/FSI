@@ -8,6 +8,8 @@
 
 #import "UIViewController+FSI.h"
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 @implementation UIViewController (FSI)
 
 - (BOOL)isModal {
@@ -17,3 +19,5 @@
 }
 
 @end
+
+#endif

@@ -17,6 +17,8 @@
 
 #import "UIButton+FSIExtensions.h"
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 @implementation UIButton (FSIExtensions)
 
 + (UIButton *)buttonWithImageView:(UIImageView *)imageView target:(id)target selector:(SEL)action
@@ -40,3 +42,5 @@
 }
 
 @end
+
+#endif

@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Tom Baranes. All rights reserved.
 //
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+
 #import <UIKit/UIKit.h>
 
 @interface UIApplication (FSIExtensions)
@@ -18,3 +20,5 @@
 - (CGFloat)statusBarHeight;
 
 @end
+
+#endif

@@ -19,6 +19,7 @@
 
 #import "UIView+Borders.h"
 
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
 
 @implementation UIView(Borders)
 
@@ -259,3 +260,5 @@
 }
 
 @end
+
+#endif
