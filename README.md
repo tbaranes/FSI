@@ -1,7 +1,7 @@
 FSI
 ===
 
-FSI is a delightful iOS library.
+FSI is a delightful iOS and OSX library.
 
 The goal of this library is to provide several useful methods that can be used anywhere quickly and easily in order to reduce the code use for a same task. 
 
