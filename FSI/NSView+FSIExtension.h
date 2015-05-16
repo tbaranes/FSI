@@ -17,6 +17,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+#if (!TARGET_IPHONE_SIMULATOR && !TARGET_OS_IPHONE)
+
 #import <Cocoa/Cocoa.h>
 
 @interface NSView (FSIExtension)
@@ -34,3 +36,5 @@
 + (id)viewFromNib;
 
 @end
+
+#endif
