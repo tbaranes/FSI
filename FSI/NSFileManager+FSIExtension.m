@@ -1,14 +1,49 @@
 //
-//  NSFileManager+KFExtension.m
+//  NSFileManager+FSIExtension.m
 //  FSI
 //
 //  Created by Tom Baranes on 19/01/15.
-//  Copyright (c) 2015 Recisio. All rights reserved.
+//  Copyright (c) 2015 Tom Baranes. All rights reserved.
 //
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//   http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
 
 #import "NSFileManager+FSIExtension.h"
+#import "FSILogger.h"
 
 @implementation NSFileManager (FSIExtension)
+
+#pragma mark - Helper
+
+- (NSURL *)defaultAppURL {
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+	// On iOS the Documents directory isn't user-visible, so put files there
+	//	NSURL *defaultURL = [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] firstObject];
+	NSURL *defaultURL = [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] firstObject];
+#else
+	// On OS X it is, so put files in Application Support. If we aren't running
+	// in a sandbox, put it in a subdirectory based on the bundle identifier
+	// to avoid accidentally sharing files between applications
+	NSURL *defaultURL = [[[NSFileManager defaultManager] URLsForDirectory:NSApplicationSupportDirectory inDomains:NSUserDomainMask] firstObject];
+	if (![[NSProcessInfo processInfo] environment][@"APP_SANDBOX_CONTAINER_ID"]) {
+		NSString *identifier = [[NSBundle mainBundle] bundleIdentifier];
+		if ([identifier length] == 0) {
+			identifier = [[[NSBundle mainBundle] executablePath] lastPathComponent];
+		}
+		defaultURL = [defaultURL URLByAppendingPathComponent:identifier isDirectory:YES];
+	}
+#endif
+	return defaultURL;
+}
 
 #pragma mark - Create
 
@@ -18,7 +53,7 @@
 	if (!fileExists || !isDir) {
 		NSError *error = nil;
 		if (![[NSFileManager defaultManager] createDirectoryAtPath:path withIntermediateDirectories:YES attributes:nil error:&error]) {
-			NSLog(@"%@", error);
+			FSILogD(@"%@", error);
 		}
 	}
 }

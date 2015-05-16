@@ -1,8 +1,8 @@
 //
-//  UIViewController+FSI.m
+//  NSView+FSIExtension.h
 //  FSI
 //
-//  Created by Tom Baranes on 26/03/15.
+//  Created by Tom Baranes on 01/04/15.
 //  Copyright (c) 2015 Tom Baranes. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,18 +17,20 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "UIViewController+FSI.h"
+#import <Cocoa/Cocoa.h>
 
-#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+@interface NSView (FSIExtension)
 
-@implementation UIViewController (FSI)
+/**
+ *  Translate all the UI componants from a xib. Use the title/... contents as the localizable key
+ */
+- (void)convertLocalizebleStrings;
 
-- (BOOL)isModal {
-	return self.presentingViewController.presentedViewController == self
-	|| self.navigationController.presentingViewController.presentedViewController == self.navigationController
-	|| [self.tabBarController.presentingViewController isKindOfClass:[UITabBarController class]];
-}
+/**
+ *  Return a NSView initialized from its xib. Supposing the NSView class has the same name as its xib
+ *
+ *  @return The NSView well initialized
+ */
++ (id)viewFromNib;
 
 @end
-
-#endif

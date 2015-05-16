@@ -1,8 +1,8 @@
 //
-//  UIViewController+FSI.m
+//  NSImage+FSIExtension.h
 //  FSI
 //
-//  Created by Tom Baranes on 26/03/15.
+//  Created by Tom Baranes on 15/04/15.
 //  Copyright (c) 2015 Tom Baranes. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,18 +17,27 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "UIViewController+FSI.h"
+#import <Cocoa/Cocoa.h>
 
-#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+@interface NSImage (FSIExtension)
 
-@implementation UIViewController (FSI)
+/**
+ *  Tint a NSImage
+ *
+ *  @param tint the tint color
+ *
+ *  @return the image tinted
+ */
+- (NSImage *)imageTintedWithColor:(NSColor *)tint;
 
-- (BOOL)isModal {
-	return self.presentingViewController.presentedViewController == self
-	|| self.navigationController.presentingViewController.presentedViewController == self.navigationController
-	|| [self.tabBarController.presentingViewController isKindOfClass:[UITabBarController class]];
-}
+/**
+ *  Create a NSImage filled by a color
+ *
+ *  @param color color will be filled the image
+ *  @param size  size of the image
+ *
+ *  @return the image created
+ */
++ (NSImage *)imageWithColor:(NSColor *)color size:(CGSize)size;
 
 @end
-
-#endif

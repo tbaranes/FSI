@@ -38,6 +38,9 @@
 	#import "UIViewController+FSI.h"
 	#import "NSObject+FSIExtensions.h"
 	#import "FSILogger.h"
+#else
+	#import "NSView+FSIExtension.h"
+	#import "NSImage+FSIExtension.h"
 #endif
 
 #import "NSString+FSIExtensions.h"
@@ -47,5 +50,7 @@
 #import "NSString+Levenshtein.h"
 #import "NSUserDefaults+FSIExtension.h"
 #import "NSFileManager+FSIExtension.h"
+#import "NSData+AESCrypt.h"
+#import "NSNotificationCenter+FSIExtension.h"
 
 #endif

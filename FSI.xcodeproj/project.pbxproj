@@ -15,6 +15,18 @@
 		E21153021AC44F0A00E4CB23 /* UIApplication+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E21153001AC44F0A00E4CB23 /* UIApplication+FSIExtensions.m */; };
 		E21153051AC44FB200E4CB23 /* UIViewController+FSI.h in Headers */ = {isa = PBXBuildFile; fileRef = E21153031AC44FB200E4CB23 /* UIViewController+FSI.h */; };
 		E21153061AC44FB200E4CB23 /* UIViewController+FSI.m in Sources */ = {isa = PBXBuildFile; fileRef = E21153041AC44FB200E4CB23 /* UIViewController+FSI.m */; };
+		E221C3621B07375A00594E45 /* NSData+AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = E221C3601B07375A00594E45 /* NSData+AESCrypt.h */; };
+		E221C3631B07375A00594E45 /* NSData+AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = E221C3601B07375A00594E45 /* NSData+AESCrypt.h */; };
+		E221C3641B07375A00594E45 /* NSData+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = E221C3611B07375A00594E45 /* NSData+AESCrypt.m */; };
+		E221C3651B07375A00594E45 /* NSData+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = E221C3611B07375A00594E45 /* NSData+AESCrypt.m */; };
+		E221C3681B07382600594E45 /* NSNotificationCenter+FSIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E221C3661B07382600594E45 /* NSNotificationCenter+FSIExtension.h */; };
+		E221C3691B07382600594E45 /* NSNotificationCenter+FSIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E221C3661B07382600594E45 /* NSNotificationCenter+FSIExtension.h */; };
+		E221C36A1B07382600594E45 /* NSNotificationCenter+FSIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E221C3671B07382600594E45 /* NSNotificationCenter+FSIExtension.m */; };
+		E221C36B1B07382600594E45 /* NSNotificationCenter+FSIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E221C3671B07382600594E45 /* NSNotificationCenter+FSIExtension.m */; };
+		E221C3711B073A1E00594E45 /* NSView+FSIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E221C36D1B073A1E00594E45 /* NSView+FSIExtension.h */; };
+		E221C3721B073A1E00594E45 /* NSView+FSIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E221C36E1B073A1E00594E45 /* NSView+FSIExtension.m */; };
+		E221C3731B073A1E00594E45 /* NSImage+FSIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E221C36F1B073A1E00594E45 /* NSImage+FSIExtension.h */; };
+		E221C3741B073A1E00594E45 /* NSImage+FSIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E221C3701B073A1E00594E45 /* NSImage+FSIExtension.m */; };
 		E22771BF1AC55E8A00A2D8B1 /* NSArray+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20041921C4BB00D38AEA /* NSArray+FSIExtensions.h */; };
 		E22771C01AC55E8A00A2D8B1 /* NSArray+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC20051921C4BB00D38AEA /* NSArray+FSIExtensions.m */; };
 		E22771C11AC55E8A00A2D8B1 /* NSDateFormatter+FSIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FC20061921C4BB00D38AEA /* NSDateFormatter+FSIExtensions.h */; };
@@ -133,6 +145,14 @@
 		E21153001AC44F0A00E4CB23 /* UIApplication+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+FSIExtensions.m"; sourceTree = "<group>"; };
 		E21153031AC44FB200E4CB23 /* UIViewController+FSI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FSI.h"; sourceTree = "<group>"; };
 		E21153041AC44FB200E4CB23 /* UIViewController+FSI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FSI.m"; sourceTree = "<group>"; };
+		E221C3601B07375A00594E45 /* NSData+AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AESCrypt.h"; sourceTree = "<group>"; };
+		E221C3611B07375A00594E45 /* NSData+AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AESCrypt.m"; sourceTree = "<group>"; };
+		E221C3661B07382600594E45 /* NSNotificationCenter+FSIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+FSIExtension.h"; sourceTree = "<group>"; };
+		E221C3671B07382600594E45 /* NSNotificationCenter+FSIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+FSIExtension.m"; sourceTree = "<group>"; };
+		E221C36D1B073A1E00594E45 /* NSView+FSIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+FSIExtension.h"; sourceTree = "<group>"; };
+		E221C36E1B073A1E00594E45 /* NSView+FSIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+FSIExtension.m"; sourceTree = "<group>"; };
+		E221C36F1B073A1E00594E45 /* NSImage+FSIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+FSIExtension.h"; sourceTree = "<group>"; };
+		E221C3701B073A1E00594E45 /* NSImage+FSIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+FSIExtension.m"; sourceTree = "<group>"; };
 		E22771A61AC55E4800A2D8B1 /* libosx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libosx.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E228CE4B1A793B570096BEBF /* NSFileManager+FSIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+FSIExtension.h"; sourceTree = "<group>"; };
 		E228CE4C1A793B570096BEBF /* NSFileManager+FSIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+FSIExtension.m"; sourceTree = "<group>"; };
@@ -263,8 +283,23 @@
 				E228CE4E1A793B570096BEBF /* NSUserDefaults+FSIExtension.m */,
 				E2FC1FFE1921C4BB00D38AEA /* FSIDeviceHelper.h */,
 				E2FC1FFF1921C4BB00D38AEA /* FSIDeviceHelper.m */,
+				E221C3601B07375A00594E45 /* NSData+AESCrypt.h */,
+				E221C3611B07375A00594E45 /* NSData+AESCrypt.m */,
+				E221C3661B07382600594E45 /* NSNotificationCenter+FSIExtension.h */,
+				E221C3671B07382600594E45 /* NSNotificationCenter+FSIExtension.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		E221C36C1B073A0100594E45 /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				E221C36D1B073A1E00594E45 /* NSView+FSIExtension.h */,
+				E221C36E1B073A1E00594E45 /* NSView+FSIExtension.m */,
+				E221C36F1B073A1E00594E45 /* NSImage+FSIExtension.h */,
+				E221C3701B073A1E00594E45 /* NSImage+FSIExtension.m */,
+			);
+			name = OSX;
 			sourceTree = "<group>";
 		};
 		E2FC1FCB1921C4A400D38AEA = {
@@ -318,6 +353,7 @@
 			children = (
 				E21153081AC450DE00E4CB23 /* Core */,
 				E21153071AC4507400E4CB23 /* iOS */,
+				E221C36C1B073A0100594E45 /* OSX */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -338,18 +374,22 @@
 				E2CE3E831AC970B100FE8992 /* UIImage+FSIExtensions.h in Headers */,
 				E2CE3E731AC970B100FE8992 /* NSObject+FSIExtensions.h in Headers */,
 				E22771C31AC55E8A00A2D8B1 /* NSFileManager+FSIExtension.h in Headers */,
+				E221C3711B073A1E00594E45 /* NSView+FSIExtension.h in Headers */,
 				E2CE3E7B1AC970B100FE8992 /* UIApplication+FSIExtensions.h in Headers */,
 				E2CE3E891AC970B100FE8992 /* UILabel+FSITextFormatted.h in Headers */,
 				E2CE3E791AC970B100FE8992 /* UIAlertView+FSIExtensions.h in Headers */,
 				E2CE3E811AC970B100FE8992 /* UIDevice+FSIExtension.h in Headers */,
+				E221C3731B073A1E00594E45 /* NSImage+FSIExtension.h in Headers */,
 				E22771C91AC55E8A00A2D8B1 /* NSString+FSIExtensions.h in Headers */,
 				E22771C51AC55E8A00A2D8B1 /* NSNumberFormatter+FSIExtensions.h in Headers */,
 				E22771C11AC55E8A00A2D8B1 /* NSDateFormatter+FSIExtensions.h in Headers */,
+				E221C3631B07375A00594E45 /* NSData+AESCrypt.h in Headers */,
 				E2CE3E7F1AC970B100FE8992 /* UIColor+FSIExtensions.h in Headers */,
 				E26B99281AC5617E0051FB7D /* FSI.h in Headers */,
 				E2CE3E771AC970B100FE8992 /* FSIDeviceHelper.h in Headers */,
 				E2CE3E751AC970B100FE8992 /* FSILogger.h in Headers */,
 				E2CE3E911AC970B100FE8992 /* UIView+Borders.h in Headers */,
+				E221C3691B07382600594E45 /* NSNotificationCenter+FSIExtension.h in Headers */,
 				E2CE3E931AC970B100FE8992 /* UIView+FSIExtensions.h in Headers */,
 				E2CE3E871AC970B100FE8992 /* UILabel+FSIExtensions.h in Headers */,
 				E2CE3E7D1AC970B100FE8992 /* UIButton+FSIExtensions.h in Headers */,
@@ -378,11 +418,13 @@
 				E2FC20381921C60200D38AEA /* UIButton+FSIExtensions.h in Headers */,
 				E2C1D7561A3786C200FE8EDB /* UIScreen+FSIExtention.h in Headers */,
 				E21153051AC44FB200E4CB23 /* UIViewController+FSI.h in Headers */,
+				E221C3621B07375A00594E45 /* NSData+AESCrypt.h in Headers */,
 				E228CE4F1A793B570096BEBF /* NSFileManager+FSIExtension.h in Headers */,
 				E26B99271AC5617D0051FB7D /* FSI.h in Headers */,
 				E2FC20391921C60300D38AEA /* UIColor+FSIExtensions.h in Headers */,
 				E2FC203A1921C60300D38AEA /* UIImage+FSIExtensions.h in Headers */,
 				E20381DA19E931A9005F536D /* NSString+Levenshtein.h in Headers */,
+				E221C3681B07382600594E45 /* NSNotificationCenter+FSIExtension.h in Headers */,
 				E2FC203B1921C60300D38AEA /* UIScrollView+FSIExtensions.h in Headers */,
 				E2C1D75A1A37879400FE8EDB /* UIDevice+FSIExtension.h in Headers */,
 				E2FC203C1921C60300D38AEA /* UITextField+FSIExtensions.h in Headers */,
@@ -488,7 +530,9 @@
 				E2CE3E8E1AC970B100FE8992 /* UIScrollView+FSIExtensions.m in Sources */,
 				E2CE3E841AC970B100FE8992 /* UIImage+FSIExtensions.m in Sources */,
 				E2CE3E881AC970B100FE8992 /* UILabel+FSIExtensions.m in Sources */,
+				E221C3721B073A1E00594E45 /* NSView+FSIExtension.m in Sources */,
 				E2CE3E8C1AC970B100FE8992 /* UIScreen+FSIExtention.m in Sources */,
+				E221C3651B07375A00594E45 /* NSData+AESCrypt.m in Sources */,
 				E2CE3E821AC970B100FE8992 /* UIDevice+FSIExtension.m in Sources */,
 				E2CE3E801AC970B100FE8992 /* UIColor+FSIExtensions.m in Sources */,
 				E2CE3E741AC970B100FE8992 /* NSObject+FSIExtensions.m in Sources */,
@@ -507,7 +551,9 @@
 				E22771C21AC55E8A00A2D8B1 /* NSDateFormatter+FSIExtensions.m in Sources */,
 				E2CE3E781AC970B100FE8992 /* FSIDeviceHelper.m in Sources */,
 				E22771C61AC55E8A00A2D8B1 /* NSNumberFormatter+FSIExtensions.m in Sources */,
+				E221C36B1B07382600594E45 /* NSNotificationCenter+FSIExtension.m in Sources */,
 				E2CE3E7E1AC970B100FE8992 /* UIButton+FSIExtensions.m in Sources */,
+				E221C3741B073A1E00594E45 /* NSImage+FSIExtension.m in Sources */,
 				E2CE3E861AC970B100FE8992 /* UIImage+ImageEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,6 +567,7 @@
 				E2FC201F1921C4BB00D38AEA /* FSILogger.m in Sources */,
 				E2FC201E1921C4BB00D38AEA /* FSIDeviceHelper.m in Sources */,
 				E2C1D7621A378FB100FE8EDB /* UIImage+ImageEffects.m in Sources */,
+				E221C3641B07375A00594E45 /* NSData+AESCrypt.m in Sources */,
 				E20381DB19E931A9005F536D /* NSString+Levenshtein.m in Sources */,
 				E2FC20271921C4BB00D38AEA /* UIButton+FSIExtensions.m in Sources */,
 				E21153021AC44F0A00E4CB23 /* UIApplication+FSIExtensions.m in Sources */,
@@ -539,6 +586,7 @@
 				E228CE501A793B570096BEBF /* NSFileManager+FSIExtension.m in Sources */,
 				E2C1D7571A3786C200FE8EDB /* UIScreen+FSIExtention.m in Sources */,
 				E2C1D75B1A37879400FE8EDB /* UIDevice+FSIExtension.m in Sources */,
+				E221C36A1B07382600594E45 /* NSNotificationCenter+FSIExtension.m in Sources */,
 				E2FC20231921C4BB00D38AEA /* NSNumberFormatter+FSIExtensions.m in Sources */,
 				E2FC202C1921C4BB00D38AEA /* UIView+Borders.m in Sources */,
 			);

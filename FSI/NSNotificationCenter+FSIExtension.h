@@ -1,8 +1,8 @@
 //
-//  UIViewController+FSI.m
+//  NSNotificationCenter+FSIExtension.h
 //  FSI
 //
-//  Created by Tom Baranes on 26/03/15.
+//  Created by Tom Baranes on 23/03/15.
 //  Copyright (c) 2015 Tom Baranes. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,18 +17,17 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "UIViewController+FSI.h"
+#import <Foundation/Foundation.h>
 
-#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+@interface NSNotificationCenter (FSIExtension)
 
-@implementation UIViewController (FSI)
-
-- (BOOL)isModal {
-	return self.presentingViewController.presentedViewController == self
-	|| self.navigationController.presentingViewController.presentedViewController == self.navigationController
-	|| [self.tabBarController.presentingViewController isKindOfClass:[UITabBarController class]];
-}
+/**
+ *  Post notification in a specific thread
+ *
+ *  @param aName    Notification name
+ *  @param anObject object
+ *  @param queue    queue where the notification will be post
+ */
+- (void)postNotificationName:(NSString *)aName object:(id)anObject queue:(dispatch_queue_t)queue;
 
 @end
-
-#endif

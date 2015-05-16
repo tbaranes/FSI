@@ -8,7 +8,7 @@ The goal of this library is to provide several useful methods that can be used a
 Requirements
 ------
 
-FSI library 0.1.1 requires Xcode 5, targeting iOS 6.0 and above.
+FSI library 0.1.3 requires Xcode 6, targeting iOS 7.0 and above.
 
 Installation 
 ------
@@ -19,7 +19,7 @@ Installation
 
 So, to use it, just add this line in your Podfile
 ```
-pod "FSI", "~ 0.1.1"
+pod "FSI", "~ 0.1.3"
 ```
 
 ### Manual installation ###
