@@ -42,4 +42,60 @@
 	[NSArray extractNumbersFromString:@""];
 }
 
+#pragma mark - Mutability
+
+- (NSArray *)arrayByAddingObject:(id)object {
+	NSMutableArray *mutableArray = [self mutableCopy];
+	[mutableArray addObject:object];
+	return [mutableArray copy];
+}
+
+- (NSArray *)arrayByInsertingObject:(id)object atIndex:(NSInteger)idx {
+	if (idx > [self count]) {
+		return self;
+	}
+	
+	NSMutableArray *mutableArray = [self mutableCopy];
+	[mutableArray insertObject:object atIndex:idx];
+	return [mutableArray copy];
+}
+
+- (NSArray *)arrayByReplacingObjectAtIndex:(NSInteger)idx withObject:(id)object {
+	if (!object || idx >= [self count]) {
+		return self;
+	}
+	
+	NSMutableArray *mutableArray = [self mutableCopy];
+	[mutableArray replaceObjectAtIndex:idx withObject:object];
+	return [mutableArray copy];
+}
+
+- (NSArray *)arrayByRemovingObject:(id)object {
+	NSMutableArray *mutableArray = [self mutableCopy];
+	[mutableArray removeObject:object];
+	return [mutableArray copy];
+}
+
+- (NSArray *)arrayByRemovingObjectAtIndex:(NSInteger)idx {
+	if (idx >= [self count]) {
+		return self;
+	}
+	
+	NSMutableArray *mutableArray = [self mutableCopy];
+	[mutableArray removeObjectAtIndex:idx];
+	return [mutableArray copy];
+}
+
+- (NSArray *)arrayByMovingObjectAtIndex:(NSInteger)atIndex toIndex:(NSInteger)toIndex {
+	if (toIndex >= [self count]) {
+		return self;
+	}
+	
+	id obj = [self objectAtIndex:atIndex];
+	NSMutableArray *mutableArray = [self mutableCopy];
+	[mutableArray removeObjectAtIndex:atIndex];
+	[mutableArray insertObject:obj atIndex:toIndex];
+	return [mutableArray copy];
+}
+
 @end

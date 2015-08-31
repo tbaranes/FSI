@@ -25,7 +25,7 @@
 
 #pragma mark - Localizable
 
-- (void)convertLocalizebleStrings {
+- (void)convertLocalizableStrings {
 	NSArray *subviews = [self subviews];
 	if ([subviews count] == 0) {
 		return;
@@ -41,6 +41,10 @@
 			NSButton *aLocalizable = (NSButton *)aLocalizableUIElement;
 			NSString *key = aLocalizable.title;
 			[aLocalizable setTitle:NSLocalizedString(key, nil)];
+		} else if ([aLocalizableUIElement isKindOfClass:[NSTabViewItem class]]) {
+			NSTabViewItem *aLocalizable = (NSTabViewItem *)aLocalizableUIElement;
+			NSString *key = aLocalizable.label;
+			[aLocalizable setLabel:NSLocalizedString(key, nil)];
 		} else {
 			[aLocalizableUIElement convertLocalizebleStrings];
 		}

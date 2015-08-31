@@ -38,9 +38,11 @@
 	#import "UIViewController+FSI.h"
 	#import "NSObject+FSIExtensions.h"
 	#import "FSILogger.h"
+	#import "UICollectionView+FSIExtension.h"
 #else
 	#import "NSView+FSIExtension.h"
 	#import "NSImage+FSIExtension.h"
+	#import "NSPopover+FSIMessage.h"
 #endif
 
 #import "NSString+FSIExtensions.h"

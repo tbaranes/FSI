@@ -26,7 +26,7 @@
 /**
  *  Translate all the UI componants from a xib. Use the title/... contents as the localizable key
  */
-- (void)convertLocalizebleStrings;
+- (void)convertLocalizableStrings;
 
 /**
  *  Return a NSView initialized from its xib. Supposing the NSView class has the same name as its xib

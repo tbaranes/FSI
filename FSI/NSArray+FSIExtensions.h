@@ -27,4 +27,11 @@
  */
 + (NSArray *)extractNumbersFromString:(NSString *)string;
 
+- (NSArray *)arrayByRemovingObject:(id)object;
+- (NSArray *)arrayByInsertingObject:(id)object atIndex:(NSInteger)idx;
+- (NSArray *)arrayByAddingObject:(id)object;
+- (NSArray *)arrayByRemovingObjectAtIndex:(NSInteger)idx;
+- (NSArray *)arrayByReplacingObjectAtIndex:(NSInteger)idx withObject:(id)object;
+- (NSArray *)arrayByMovingObjectAtIndex:(NSInteger)atIndex toIndex:(NSInteger)toIndex;
+
 @end

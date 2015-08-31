@@ -15,6 +15,10 @@
 		E21153021AC44F0A00E4CB23 /* UIApplication+FSIExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E21153001AC44F0A00E4CB23 /* UIApplication+FSIExtensions.m */; };
 		E21153051AC44FB200E4CB23 /* UIViewController+FSI.h in Headers */ = {isa = PBXBuildFile; fileRef = E21153031AC44FB200E4CB23 /* UIViewController+FSI.h */; };
 		E21153061AC44FB200E4CB23 /* UIViewController+FSI.m in Sources */ = {isa = PBXBuildFile; fileRef = E21153041AC44FB200E4CB23 /* UIViewController+FSI.m */; };
+		E2124C491B94810400C2833B /* UICollectionView+FSIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E2124C471B94810400C2833B /* UICollectionView+FSIExtension.h */; };
+		E2124C4A1B94810400C2833B /* UICollectionView+FSIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E2124C481B94810400C2833B /* UICollectionView+FSIExtension.m */; };
+		E2124C4D1B9481A900C2833B /* NSPopover+FSIMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = E2124C4B1B9481A900C2833B /* NSPopover+FSIMessage.h */; };
+		E2124C4E1B9481A900C2833B /* NSPopover+FSIMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2124C4C1B9481A900C2833B /* NSPopover+FSIMessage.m */; };
 		E221C3621B07375A00594E45 /* NSData+AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = E221C3601B07375A00594E45 /* NSData+AESCrypt.h */; };
 		E221C3631B07375A00594E45 /* NSData+AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = E221C3601B07375A00594E45 /* NSData+AESCrypt.h */; };
 		E221C3641B07375A00594E45 /* NSData+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = E221C3611B07375A00594E45 /* NSData+AESCrypt.m */; };
@@ -145,6 +149,10 @@
 		E21153001AC44F0A00E4CB23 /* UIApplication+FSIExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+FSIExtensions.m"; sourceTree = "<group>"; };
 		E21153031AC44FB200E4CB23 /* UIViewController+FSI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FSI.h"; sourceTree = "<group>"; };
 		E21153041AC44FB200E4CB23 /* UIViewController+FSI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FSI.m"; sourceTree = "<group>"; };
+		E2124C471B94810400C2833B /* UICollectionView+FSIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+FSIExtension.h"; sourceTree = "<group>"; };
+		E2124C481B94810400C2833B /* UICollectionView+FSIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+FSIExtension.m"; sourceTree = "<group>"; };
+		E2124C4B1B9481A900C2833B /* NSPopover+FSIMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPopover+FSIMessage.h"; sourceTree = "<group>"; };
+		E2124C4C1B9481A900C2833B /* NSPopover+FSIMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPopover+FSIMessage.m"; sourceTree = "<group>"; };
 		E221C3601B07375A00594E45 /* NSData+AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AESCrypt.h"; sourceTree = "<group>"; };
 		E221C3611B07375A00594E45 /* NSData+AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AESCrypt.m"; sourceTree = "<group>"; };
 		E221C3661B07382600594E45 /* NSNotificationCenter+FSIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+FSIExtension.h"; sourceTree = "<group>"; };
@@ -256,6 +264,8 @@
 				E2FC201D1921C4BB00D38AEA /* UIView+FSIExtensions.m */,
 				E21153031AC44FB200E4CB23 /* UIViewController+FSI.h */,
 				E21153041AC44FB200E4CB23 /* UIViewController+FSI.m */,
+				E2124C471B94810400C2833B /* UICollectionView+FSIExtension.h */,
+				E2124C481B94810400C2833B /* UICollectionView+FSIExtension.m */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -298,6 +308,8 @@
 				E221C36E1B073A1E00594E45 /* NSView+FSIExtension.m */,
 				E221C36F1B073A1E00594E45 /* NSImage+FSIExtension.h */,
 				E221C3701B073A1E00594E45 /* NSImage+FSIExtension.m */,
+				E2124C4B1B9481A900C2833B /* NSPopover+FSIMessage.h */,
+				E2124C4C1B9481A900C2833B /* NSPopover+FSIMessage.m */,
 			);
 			name = OSX;
 			sourceTree = "<group>";
@@ -393,6 +405,7 @@
 				E2CE3E931AC970B100FE8992 /* UIView+FSIExtensions.h in Headers */,
 				E2CE3E871AC970B100FE8992 /* UILabel+FSIExtensions.h in Headers */,
 				E2CE3E7D1AC970B100FE8992 /* UIButton+FSIExtensions.h in Headers */,
+				E2124C4D1B9481A900C2833B /* NSPopover+FSIMessage.h in Headers */,
 				E22771CB1AC55E8A00A2D8B1 /* NSString+Levenshtein.h in Headers */,
 				E22771CD1AC55E8A00A2D8B1 /* NSUserDefaults+FSIExtension.h in Headers */,
 			);
@@ -412,6 +425,7 @@
 				E2FC20341921C60200D38AEA /* NSNumberFormatter+FSIExtensions.h in Headers */,
 				E2C87EDD19E459B100A23DB8 /* UILabel+FSIExtensions.h in Headers */,
 				E2FC20351921C60200D38AEA /* NSObject+FSIExtensions.h in Headers */,
+				E2124C491B94810400C2833B /* UICollectionView+FSIExtension.h in Headers */,
 				E21153011AC44F0A00E4CB23 /* UIApplication+FSIExtensions.h in Headers */,
 				E2FC20361921C60200D38AEA /* NSString+FSIExtensions.h in Headers */,
 				E2FC20371921C60200D38AEA /* UIAlertView+FSIExtensions.h in Headers */,
@@ -527,6 +541,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2CE3E8A1AC970B100FE8992 /* UILabel+FSITextFormatted.m in Sources */,
+				E2124C4E1B9481A900C2833B /* NSPopover+FSIMessage.m in Sources */,
 				E2CE3E8E1AC970B100FE8992 /* UIScrollView+FSIExtensions.m in Sources */,
 				E2CE3E841AC970B100FE8992 /* UIImage+FSIExtensions.m in Sources */,
 				E2CE3E881AC970B100FE8992 /* UILabel+FSIExtensions.m in Sources */,
@@ -567,6 +582,7 @@
 				E2FC201F1921C4BB00D38AEA /* FSILogger.m in Sources */,
 				E2FC201E1921C4BB00D38AEA /* FSIDeviceHelper.m in Sources */,
 				E2C1D7621A378FB100FE8EDB /* UIImage+ImageEffects.m in Sources */,
+				E2124C4A1B94810400C2833B /* UICollectionView+FSIExtension.m in Sources */,
 				E221C3641B07375A00594E45 /* NSData+AESCrypt.m in Sources */,
 				E20381DB19E931A9005F536D /* NSString+Levenshtein.m in Sources */,
 				E2FC20271921C4BB00D38AEA /* UIButton+FSIExtensions.m in Sources */,
