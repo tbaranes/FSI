@@ -46,7 +46,7 @@
 			NSString *key = aLocalizable.label;
 			[aLocalizable setLabel:NSLocalizedString(key, nil)];
 		} else {
-			[aLocalizableUIElement convertLocalizebleStrings];
+			[aLocalizableUIElement convertLocalizableStrings];
 		}
 	}
 }
