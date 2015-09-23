@@ -33,15 +33,16 @@
 		#import "UIDevice+FSIExtension.h"
 		#import "UIApplication+FSIExtensions.h"
 		#import "UIScreen+FSIExtention.h"
-	#else
-		#import "FSILogger.h"
-		#import "NSObject+FSIExtensions.h"
-		#import "UIColor+FSIExtensions.h"
-		#import "UIImage+ImageEffects.h"
-		#import "FSIDeviceHelper.h"
-		#import "UIViewController+FSI.h"
-		#import "UICollectionView+FSIExtension.h"
 	#endif
+
+	#import "FSILogger.h"
+	#import "NSObject+FSIExtensions.h"
+	#import "UIColor+FSIExtensions.h"
+	#import "UIImage+ImageEffects.h"
+	#import "FSIDeviceHelper.h"
+	#import "UIViewController+FSI.h"
+	#import "UICollectionView+FSIExtension.h"
+
 #else
 	#import "NSView+FSIExtension.h"
 	#import "NSImage+FSIExtension.h"
