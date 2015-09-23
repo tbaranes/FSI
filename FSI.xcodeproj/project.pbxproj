@@ -231,7 +231,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E21153071AC4507400E4CB23 /* iOS */ = {
+		E20350801BB28C3D005E11C8 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				E2FC200E1921C4BB00D38AEA /* UIAlertView+FSIExtensions.h */,
@@ -240,20 +240,12 @@
 				E21153001AC44F0A00E4CB23 /* UIApplication+FSIExtensions.m */,
 				E2FC20101921C4BB00D38AEA /* UIButton+FSIExtensions.h */,
 				E2FC20111921C4BB00D38AEA /* UIButton+FSIExtensions.m */,
-				E2FC20121921C4BB00D38AEA /* UIColor+FSIExtensions.h */,
-				E2FC20131921C4BB00D38AEA /* UIColor+FSIExtensions.m */,
 				E2C1D7581A37879400FE8EDB /* UIDevice+FSIExtension.h */,
 				E2C1D7591A37879400FE8EDB /* UIDevice+FSIExtension.m */,
-				E2FC20141921C4BB00D38AEA /* UIImage+FSIExtensions.h */,
-				E2FC20151921C4BB00D38AEA /* UIImage+FSIExtensions.m */,
-				E2C1D75F1A378FB100FE8EDB /* UIImage+ImageEffects.h */,
-				E2C1D7601A378FB100FE8EDB /* UIImage+ImageEffects.m */,
 				E2C87EDB19E459B100A23DB8 /* UILabel+FSIExtensions.h */,
 				E2C87EDC19E459B100A23DB8 /* UILabel+FSIExtensions.m */,
 				30ADF20719E5139F0077F76A /* UILabel+FSITextFormatted.h */,
 				30ADF20819E5139F0077F76A /* UILabel+FSITextFormatted.m */,
-				E2C1D7541A3786C200FE8EDB /* UIScreen+FSIExtention.h */,
-				E2C1D7551A3786C200FE8EDB /* UIScreen+FSIExtention.m */,
 				E2FC20161921C4BB00D38AEA /* UIScrollView+FSIExtensions.h */,
 				E2FC20171921C4BB00D38AEA /* UIScrollView+FSIExtensions.m */,
 				E2FC20181921C4BB00D38AEA /* UITextField+FSIExtensions.h */,
@@ -262,12 +254,28 @@
 				E2FC201B1921C4BB00D38AEA /* UIView+Borders.m */,
 				E2FC201C1921C4BB00D38AEA /* UIView+FSIExtensions.h */,
 				E2FC201D1921C4BB00D38AEA /* UIView+FSIExtensions.m */,
+				E2C1D7541A3786C200FE8EDB /* UIScreen+FSIExtention.h */,
+				E2C1D7551A3786C200FE8EDB /* UIScreen+FSIExtention.m */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E21153071AC4507400E4CB23 /* iOS - tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E20350801BB28C3D005E11C8 /* iOS */,
+				E2FC20121921C4BB00D38AEA /* UIColor+FSIExtensions.h */,
+				E2FC20131921C4BB00D38AEA /* UIColor+FSIExtensions.m */,
+				E2FC20141921C4BB00D38AEA /* UIImage+FSIExtensions.h */,
+				E2FC20151921C4BB00D38AEA /* UIImage+FSIExtensions.m */,
+				E2C1D75F1A378FB100FE8EDB /* UIImage+ImageEffects.h */,
+				E2C1D7601A378FB100FE8EDB /* UIImage+ImageEffects.m */,
 				E21153031AC44FB200E4CB23 /* UIViewController+FSI.h */,
 				E21153041AC44FB200E4CB23 /* UIViewController+FSI.m */,
 				E2124C471B94810400C2833B /* UICollectionView+FSIExtension.h */,
 				E2124C481B94810400C2833B /* UICollectionView+FSIExtension.m */,
 			);
-			name = iOS;
+			name = "iOS - tvOS";
 			sourceTree = "<group>";
 		};
 		E21153081AC450DE00E4CB23 /* Core */ = {
@@ -364,7 +372,7 @@
 			isa = PBXGroup;
 			children = (
 				E21153081AC450DE00E4CB23 /* Core */,
-				E21153071AC4507400E4CB23 /* iOS */,
+				E21153071AC4507400E4CB23 /* iOS - tvOS */,
 				E221C36C1B073A0100594E45 /* OSX */,
 			);
 			name = Classes;

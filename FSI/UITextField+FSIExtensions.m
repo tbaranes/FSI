@@ -17,7 +17,7 @@
 
 #import "UITextField+FSIExtensions.h"
 
-#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE) && !TARGET_OS_TV
 
 @implementation UITextField (FSIExtensions)
 

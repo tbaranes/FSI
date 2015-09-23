@@ -17,7 +17,7 @@
 //
 // Thanks to aaronn for this usefull category: https://github.com/aaronn/UIView-Borders
 
-#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+#if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE) && !TARGET_OS_TV
 
 #import <UIKit/UIKit.h>
 
