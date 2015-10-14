@@ -11,6 +11,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.10'
 
+  if s.respond_to?(:tvos) 
+    s.tvos.deployment_target = '9.0'
+  end
+
   s.public_header_files = 'FSI/*.h'
   s.source_files = 'FSI/*.{h,m}'
 end
