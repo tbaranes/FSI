@@ -27,4 +27,10 @@
 	});
 }
 
+- (void)postNotificationName:(NSString *)aName object:(id)anObject userInfo:(NSDictionary *)aUserInfo queue:(dispatch_queue_t)queue {
+    dispatch_async(queue, ^{
+        [self postNotificationName:aName object:anObject userInfo:aUserInfo];
+    });
+}
+
 @end

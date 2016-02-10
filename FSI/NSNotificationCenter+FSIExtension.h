@@ -30,4 +30,14 @@
  */
 - (void)postNotificationName:(NSString *)aName object:(id)anObject queue:(dispatch_queue_t)queue;
 
+/**
+ *  Post notification in a specific thread
+ *
+ *  @param aName    Notification name
+ *  @param anObject object
+ *  @param userInfo user info dictionary for the notification
+ *  @param queue    queue where the notification will be post
+ */
+- (void)postNotificationName:(NSString *)aName object:(id)anObject userInfo:(NSDictionary *)aUserInfo queue:(dispatch_queue_t)queue;
+
 @end
