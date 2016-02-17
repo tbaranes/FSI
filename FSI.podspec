@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'FSI'
-  s.version  = '0.2.0'
+  s.version  = '0.3.0'
   s.license  = 'Apache'
   s.summary  = 'A delightful iOS library.'
   s.homepage = 'https://github.com/tbaranes/FSI'
