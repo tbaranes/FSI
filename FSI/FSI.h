@@ -42,7 +42,8 @@
 	#import "FSIDeviceHelper.h"
 	#import "UIViewController+FSI.h"
 	#import "UICollectionView+FSIExtension.h"
-
+    #import "CALayer+XibConfiguration.h"
+    #import "UIAlertController+FSIExtension.h"
 #else
 	#import "NSView+FSIExtension.h"
 	#import "NSImage+FSIExtension.h"
@@ -58,5 +59,6 @@
 #import "NSFileManager+FSIExtension.h"
 #import "NSData+AESCrypt.h"
 #import "NSNotificationCenter+FSIExtension.h"
+#import "KFURLQueryComponents.h"
 
 #endif
