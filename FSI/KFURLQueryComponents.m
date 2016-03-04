@@ -12,13 +12,13 @@
 
 - (NSString *)stringByDecodingURLFormat {
     NSString *result = [self stringByReplacingOccurrencesOfString:@"+" withString:@" "];
-    result = [result stringByRemovingPercentEncoding];
+    result = [result stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return result;
 }
 
 - (NSString *)stringByEncodingURLFormat {
     NSString *result = [self stringByReplacingOccurrencesOfString:@" " withString:@"+"];
-    result = [result stringByRemovingPercentEncoding];
+    result = [result stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return result;
 }
 
