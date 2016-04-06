@@ -16,7 +16,7 @@
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
     [alertController addAction:cancelAction];
-    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alertController animated:YES completion:nil];
+    [[UIApplication sharedApplication].topMostViewController presentViewController:alertController animated:YES completion:nil];
 }
 
 @end

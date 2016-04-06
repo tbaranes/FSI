@@ -29,6 +29,7 @@
  *  @return status bar height
  */
 - (CGFloat)statusBarHeight;
+- (UIViewController *)topMostViewController;
 
 @end
 

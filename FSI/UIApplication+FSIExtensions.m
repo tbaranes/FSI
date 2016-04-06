@@ -27,6 +27,14 @@
 	return MIN([UIApplication sharedApplication].statusBarFrame.size.height, [UIApplication sharedApplication].statusBarFrame.size.width);
 }
 
+- (UIViewController *)topMostViewController {
+    UIViewController *topViewController = self.keyWindow.rootViewController;
+    while (topViewController.presentedViewController) {
+        topViewController = topViewController.presentedViewController;
+    }
+    return topViewController;
+}
+
 @end
 
 #endif
