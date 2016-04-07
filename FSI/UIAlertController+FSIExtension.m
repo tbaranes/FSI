@@ -9,6 +9,7 @@
 #if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
 
 #import "UIAlertController+FSIExtension.h"
+#import "UIApplication+FSIExtensions.h"
 
 @implementation UIAlertController (FSIExtension)
 
