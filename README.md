@@ -1,7 +1,7 @@
 FSI
 ===
 
-/!\  Deprecated: this library is not maintained anymore in favor /!\
+/!\  Deprecated: this library is not maintained anymore /!\
 
 FSI is a delightful iOS and OSX library.
 
